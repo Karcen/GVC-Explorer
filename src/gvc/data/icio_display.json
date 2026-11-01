@@ -1,0 +1,731 @@
+{
+  "areas": {
+    "AGO": {
+      "code": "AGO",
+      "zh": "安哥拉",
+      "en": "Angola"
+    },
+    "ARE": {
+      "code": "ARE",
+      "zh": "阿拉伯联合酋长国",
+      "en": "United Arab Emirates"
+    },
+    "ARG": {
+      "code": "ARG",
+      "zh": "阿根廷",
+      "en": "Argentina"
+    },
+    "AUS": {
+      "code": "AUS",
+      "zh": "澳大利亚",
+      "en": "Australia"
+    },
+    "AUT": {
+      "code": "AUT",
+      "zh": "奥地利",
+      "en": "Austria"
+    },
+    "BEL": {
+      "code": "BEL",
+      "zh": "比利时",
+      "en": "Belgium"
+    },
+    "BGD": {
+      "code": "BGD",
+      "zh": "孟加拉国",
+      "en": "Bangladesh"
+    },
+    "BGR": {
+      "code": "BGR",
+      "zh": "保加利亚",
+      "en": "Bulgaria"
+    },
+    "BLR": {
+      "code": "BLR",
+      "zh": "白俄罗斯",
+      "en": "Belarus"
+    },
+    "BRA": {
+      "code": "BRA",
+      "zh": "巴西",
+      "en": "Brazil"
+    },
+    "BRN": {
+      "code": "BRN",
+      "zh": "文莱",
+      "en": "Brunei Darussalam"
+    },
+    "CAN": {
+      "code": "CAN",
+      "zh": "加拿大",
+      "en": "Canada"
+    },
+    "CHE": {
+      "code": "CHE",
+      "zh": "瑞士",
+      "en": "Switzerland"
+    },
+    "CHL": {
+      "code": "CHL",
+      "zh": "智利",
+      "en": "Chile"
+    },
+    "CHN": {
+      "code": "CHN",
+      "zh": "中国",
+      "en": "China, People's Republic of"
+    },
+    "CIV": {
+      "code": "CIV",
+      "zh": "科特迪瓦",
+      "en": "Côte d'Ivoire"
+    },
+    "CMR": {
+      "code": "CMR",
+      "zh": "喀麦隆",
+      "en": "Cameroon"
+    },
+    "COD": {
+      "code": "COD",
+      "zh": "刚果（金）",
+      "en": "Democratic Republic of the Congo"
+    },
+    "COL": {
+      "code": "COL",
+      "zh": "哥伦比亚",
+      "en": "Colombia"
+    },
+    "CRI": {
+      "code": "CRI",
+      "zh": "哥斯达黎加",
+      "en": "Costa Rica"
+    },
+    "CYP": {
+      "code": "CYP",
+      "zh": "塞浦路斯",
+      "en": "Cyprus (1)"
+    },
+    "CZE": {
+      "code": "CZE",
+      "zh": "捷克",
+      "en": "Czechia"
+    },
+    "DEU": {
+      "code": "DEU",
+      "zh": "德国",
+      "en": "Germany"
+    },
+    "DNK": {
+      "code": "DNK",
+      "zh": "丹麦",
+      "en": "Denmark"
+    },
+    "EGY": {
+      "code": "EGY",
+      "zh": "埃及",
+      "en": "Egypt"
+    },
+    "ESP": {
+      "code": "ESP",
+      "zh": "西班牙",
+      "en": "Spain"
+    },
+    "EST": {
+      "code": "EST",
+      "zh": "爱沙尼亚",
+      "en": "Estonia"
+    },
+    "FIN": {
+      "code": "FIN",
+      "zh": "芬兰",
+      "en": "Finland"
+    },
+    "FRA": {
+      "code": "FRA",
+      "zh": "法国",
+      "en": "France"
+    },
+    "GBR": {
+      "code": "GBR",
+      "zh": "英国",
+      "en": "United Kingdom"
+    },
+    "GRC": {
+      "code": "GRC",
+      "zh": "希腊",
+      "en": "Greece"
+    },
+    "HKG": {
+      "code": "HKG",
+      "zh": "中国香港特别行政区",
+      "en": "Hong Kong, China"
+    },
+    "HRV": {
+      "code": "HRV",
+      "zh": "克罗地亚",
+      "en": "Croatia"
+    },
+    "HUN": {
+      "code": "HUN",
+      "zh": "匈牙利",
+      "en": "Hungary"
+    },
+    "IDN": {
+      "code": "IDN",
+      "zh": "印度尼西亚",
+      "en": "Indonesia"
+    },
+    "IND": {
+      "code": "IND",
+      "zh": "印度",
+      "en": "India"
+    },
+    "IRL": {
+      "code": "IRL",
+      "zh": "爱尔兰",
+      "en": "Ireland"
+    },
+    "ISL": {
+      "code": "ISL",
+      "zh": "冰岛",
+      "en": "Iceland"
+    },
+    "ISR": {
+      "code": "ISR",
+      "zh": "以色列",
+      "en": "Israel (2)"
+    },
+    "ITA": {
+      "code": "ITA",
+      "zh": "意大利",
+      "en": "Italy"
+    },
+    "JOR": {
+      "code": "JOR",
+      "zh": "约旦",
+      "en": "Jordan"
+    },
+    "JPN": {
+      "code": "JPN",
+      "zh": "日本",
+      "en": "Japan"
+    },
+    "KAZ": {
+      "code": "KAZ",
+      "zh": "哈萨克斯坦",
+      "en": "Kazakhstan"
+    },
+    "KHM": {
+      "code": "KHM",
+      "zh": "柬埔寨",
+      "en": "Cambodia"
+    },
+    "KOR": {
+      "code": "KOR",
+      "zh": "韩国",
+      "en": "Korea"
+    },
+    "LAO": {
+      "code": "LAO",
+      "zh": "老挝",
+      "en": "Lao (People's Democratic Republic)"
+    },
+    "LTU": {
+      "code": "LTU",
+      "zh": "立陶宛",
+      "en": "Lithuania"
+    },
+    "LUX": {
+      "code": "LUX",
+      "zh": "卢森堡",
+      "en": "Luxembourg"
+    },
+    "LVA": {
+      "code": "LVA",
+      "zh": "拉脱维亚",
+      "en": "Latvia"
+    },
+    "MAR": {
+      "code": "MAR",
+      "zh": "摩洛哥",
+      "en": "Morocco"
+    },
+    "MEX": {
+      "code": "MEX",
+      "zh": "墨西哥",
+      "en": "Mexico"
+    },
+    "MLT": {
+      "code": "MLT",
+      "zh": "马耳他",
+      "en": "Malta"
+    },
+    "MMR": {
+      "code": "MMR",
+      "zh": "缅甸",
+      "en": "Myanmar"
+    },
+    "MYS": {
+      "code": "MYS",
+      "zh": "马来西亚",
+      "en": "Malaysia"
+    },
+    "NGA": {
+      "code": "NGA",
+      "zh": "尼日利亚",
+      "en": "Nigeria"
+    },
+    "NLD": {
+      "code": "NLD",
+      "zh": "荷兰",
+      "en": "Netherlands"
+    },
+    "NOR": {
+      "code": "NOR",
+      "zh": "挪威",
+      "en": "Norway"
+    },
+    "NZL": {
+      "code": "NZL",
+      "zh": "新西兰",
+      "en": "New Zealand"
+    },
+    "PAK": {
+      "code": "PAK",
+      "zh": "巴基斯坦",
+      "en": "Pakistan"
+    },
+    "PER": {
+      "code": "PER",
+      "zh": "秘鲁",
+      "en": "Peru"
+    },
+    "PHL": {
+      "code": "PHL",
+      "zh": "菲律宾",
+      "en": "Philippines"
+    },
+    "POL": {
+      "code": "POL",
+      "zh": "波兰",
+      "en": "Poland"
+    },
+    "PRT": {
+      "code": "PRT",
+      "zh": "葡萄牙",
+      "en": "Portugal"
+    },
+    "ROU": {
+      "code": "ROU",
+      "zh": "罗马尼亚",
+      "en": "Romania"
+    },
+    "RUS": {
+      "code": "RUS",
+      "zh": "俄罗斯",
+      "en": "Russian Federation"
+    },
+    "SAU": {
+      "code": "SAU",
+      "zh": "沙特阿拉伯",
+      "en": "Saudi Arabia"
+    },
+    "SEN": {
+      "code": "SEN",
+      "zh": "塞内加尔",
+      "en": "Senegal"
+    },
+    "SGP": {
+      "code": "SGP",
+      "zh": "新加坡",
+      "en": "Singapore"
+    },
+    "STP": {
+      "code": "STP",
+      "zh": "圣多美和普林西比",
+      "en": "Saõ Tomé and Príncipe"
+    },
+    "SVK": {
+      "code": "SVK",
+      "zh": "斯洛伐克",
+      "en": "Slovak Republic"
+    },
+    "SVN": {
+      "code": "SVN",
+      "zh": "斯洛文尼亚",
+      "en": "Slovenia"
+    },
+    "SWE": {
+      "code": "SWE",
+      "zh": "瑞典",
+      "en": "Sweden"
+    },
+    "THA": {
+      "code": "THA",
+      "zh": "泰国",
+      "en": "Thailand"
+    },
+    "TUN": {
+      "code": "TUN",
+      "zh": "突尼斯",
+      "en": "Tunisia"
+    },
+    "TUR": {
+      "code": "TUR",
+      "zh": "土耳其",
+      "en": "Türkiye"
+    },
+    "TWN": {
+      "code": "TWN",
+      "zh": "中国台北",
+      "en": "Chinese Taipei"
+    },
+    "UKR": {
+      "code": "UKR",
+      "zh": "乌克兰",
+      "en": "Ukraine"
+    },
+    "USA": {
+      "code": "USA",
+      "zh": "美国",
+      "en": "United States"
+    },
+    "VNM": {
+      "code": "VNM",
+      "zh": "越南",
+      "en": "Viet Nam"
+    },
+    "ZAF": {
+      "code": "ZAF",
+      "zh": "南非",
+      "en": "South Africa"
+    },
+    "ROW": {
+      "code": "ROW",
+      "zh": "世界其他地区",
+      "en": "Rest of the World"
+    },
+    "MX1": {
+      "code": "MX1",
+      "zh": "墨西哥非全球制造",
+      "en": "Mexico excluding global manufacturing activities"
+    },
+    "MX2": {
+      "code": "MX2",
+      "zh": "墨西哥全球制造",
+      "en": "Mexico global manufacturing activities"
+    },
+    "CN1": {
+      "code": "CN1",
+      "zh": "中国非加工生产",
+      "en": "China excluding processing activities"
+    },
+    "CN2": {
+      "code": "CN2",
+      "zh": "中国加工生产",
+      "en": "China processing activities"
+    }
+  },
+  "sectors": {
+    "A01": {
+      "code": "A01",
+      "en": "Agriculture and hunting",
+      "zh": "农业与狩猎",
+      "alias": "D01"
+    },
+    "A02": {
+      "code": "A02",
+      "en": "Forestry and logging",
+      "zh": "林业与伐木",
+      "alias": "D02"
+    },
+    "A03": {
+      "code": "A03",
+      "en": "Fishing and aquaculture",
+      "zh": "渔业与水产养殖",
+      "alias": "D03"
+    },
+    "B05": {
+      "code": "B05",
+      "en": "Mining of coal and lignite",
+      "zh": "煤炭开采",
+      "alias": "D05"
+    },
+    "B06": {
+      "code": "B06",
+      "en": "Extraction of crude petroleum and natural gas",
+      "zh": "原油与天然气开采",
+      "alias": "D06"
+    },
+    "B07": {
+      "code": "B07",
+      "en": "Mining of metal ores",
+      "zh": "金属矿开采",
+      "alias": "D07"
+    },
+    "B08": {
+      "code": "B08",
+      "en": "Other mining and quarrying",
+      "zh": "其他采矿与采石",
+      "alias": "D08"
+    },
+    "B09": {
+      "code": "B09",
+      "en": "Mining support service activities",
+      "zh": "采矿辅助服务",
+      "alias": "D09"
+    },
+    "C10T12": {
+      "code": "C10T12",
+      "en": "Manufacture of food products; beverages and tobacco products",
+      "zh": "食品饮料与烟草制造",
+      "alias": "D10T12"
+    },
+    "C13T15": {
+      "code": "C13T15",
+      "en": "Manufacture of textiles, wearing apparel, leather and related products",
+      "zh": "纺织服装与皮革制品",
+      "alias": "D13T15"
+    },
+    "C16": {
+      "code": "C16",
+      "en": "Manufacture of wood and of products of wood and cork",
+      "zh": "木材及木制品",
+      "alias": "D16"
+    },
+    "C17_18": {
+      "code": "C17_18",
+      "en": "Manufacture of paper and paper products; Printing and reproduction of recorded media",
+      "zh": "造纸、印刷与复制",
+      "alias": "D17T18"
+    },
+    "C19": {
+      "code": "C19",
+      "en": "Manufacture of coke and refined petroleum products",
+      "zh": "焦炭与精炼石油制品",
+      "alias": "D19"
+    },
+    "C20": {
+      "code": "C20",
+      "en": "Manufacture of chemicals and chemical products",
+      "zh": "化学品制造",
+      "alias": "D20"
+    },
+    "C21": {
+      "code": "C21",
+      "en": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+      "zh": "药品制造",
+      "alias": "D21"
+    },
+    "C22": {
+      "code": "C22",
+      "en": "Manufacture of rubber and plastic products",
+      "zh": "橡胶和塑料制品",
+      "alias": "D22"
+    },
+    "C23": {
+      "code": "C23",
+      "en": "Manufacture of other non-metallic mineral products",
+      "zh": "其他非金属矿物制品",
+      "alias": "D23"
+    },
+    "C24A": {
+      "code": "C24A",
+      "en": "Manufacture of basic iron and steel",
+      "zh": "钢铁冶炼",
+      "alias": "D241"
+    },
+    "C24B": {
+      "code": "C24B",
+      "en": "Manufacture of basic precious and other non-ferrous metals",
+      "zh": "贵金属及其他有色金属",
+      "alias": "D242"
+    },
+    "C25": {
+      "code": "C25",
+      "en": "Manufacture of fabricated metal products",
+      "zh": "金属制品",
+      "alias": "D25"
+    },
+    "C26": {
+      "code": "C26",
+      "en": "Manufacture of computer, electronic and optical products",
+      "zh": "计算机、电子与光学产品",
+      "alias": "D26"
+    },
+    "C27": {
+      "code": "C27",
+      "en": "Manufacture of electrical equipment",
+      "zh": "电气设备",
+      "alias": "D27"
+    },
+    "C28": {
+      "code": "C28",
+      "en": "Manufacture of machinery and equipment n.e.c.",
+      "zh": "其他机械设备",
+      "alias": "D28"
+    },
+    "C29": {
+      "code": "C29",
+      "en": "Manufacture of motor vehicles, trailers and semi-trailers",
+      "zh": "汽车、挂车及半挂车",
+      "alias": "D29"
+    },
+    "C301": {
+      "code": "C301",
+      "en": "Building of ships and boats",
+      "zh": "船舶制造",
+      "alias": "D301"
+    },
+    "C302T309": {
+      "code": "C302T309",
+      "en": "Manufacture of other transport equipment",
+      "zh": "其他运输设备",
+      "alias": "D302T309"
+    },
+    "C31T33": {
+      "code": "C31T33",
+      "en": "Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment",
+      "zh": "家具、其他制造及机械维修",
+      "alias": "D31T33"
+    },
+    "D": {
+      "code": "D",
+      "en": "Electricity, gas, steam and air conditioning supply",
+      "zh": "电力、燃气、蒸汽与空调供应",
+      "alias": "D35"
+    },
+    "E": {
+      "code": "E",
+      "en": "Water supply; sewerage, waste management and remediation activities",
+      "zh": "供水、污水处理与废物治理",
+      "alias": "D36T39"
+    },
+    "F": {
+      "code": "F",
+      "en": "Construction",
+      "zh": "建筑业",
+      "alias": "D41T43"
+    },
+    "G": {
+      "code": "G",
+      "en": "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+      "zh": "批发零售与机动车维修",
+      "alias": "D45T47"
+    },
+    "H49": {
+      "code": "H49",
+      "en": "Land transport and transport via pipelines",
+      "zh": "陆路与管道运输",
+      "alias": "D49"
+    },
+    "H50": {
+      "code": "H50",
+      "en": "Water transport",
+      "zh": "水上运输",
+      "alias": "D50"
+    },
+    "H51": {
+      "code": "H51",
+      "en": "Air transport",
+      "zh": "航空运输",
+      "alias": "D51"
+    },
+    "H52": {
+      "code": "H52",
+      "en": "Warehousing and support activities for transportation",
+      "zh": "仓储与运输辅助",
+      "alias": "D52"
+    },
+    "H53": {
+      "code": "H53",
+      "en": "Postal and courier activities",
+      "zh": "邮政与快递",
+      "alias": "D53"
+    },
+    "I": {
+      "code": "I",
+      "en": "Accommodation and food service activities",
+      "zh": "住宿和餐饮",
+      "alias": "D55T56"
+    },
+    "J58T60": {
+      "code": "J58T60",
+      "en": "Publishing, Motion picture, video, television programme production and broadcasting activities",
+      "zh": "出版、影视与广播",
+      "alias": "D58T60"
+    },
+    "J61": {
+      "code": "J61",
+      "en": "Telecommunications",
+      "zh": "电信",
+      "alias": "D61"
+    },
+    "J62_63": {
+      "code": "J62_63",
+      "en": "Computer programming and information service activities",
+      "zh": "计算机编程与信息服务",
+      "alias": "D62T63"
+    },
+    "K": {
+      "code": "K",
+      "en": "Financial and insurance activities",
+      "zh": "金融与保险",
+      "alias": "D64T66"
+    },
+    "L": {
+      "code": "L",
+      "en": "Real estate activities",
+      "zh": "房地产业",
+      "alias": "D68"
+    },
+    "M": {
+      "code": "M",
+      "en": "Professional, scientific and technical activities",
+      "zh": "专业、科学与技术服务",
+      "alias": "D69T75"
+    },
+    "N": {
+      "code": "N",
+      "en": "Administrative and support service activities",
+      "zh": "行政与辅助服务",
+      "alias": "D77T82"
+    },
+    "O": {
+      "code": "O",
+      "en": "Public administration and defence; compulsory social security",
+      "zh": "公共管理、国防与社会保障",
+      "alias": "D84"
+    },
+    "P": {
+      "code": "P",
+      "en": "Education",
+      "zh": "教育",
+      "alias": "D85"
+    },
+    "Q": {
+      "code": "Q",
+      "en": "Human health and social work activities",
+      "zh": "卫生与社会工作",
+      "alias": "D86T88"
+    },
+    "R": {
+      "code": "R",
+      "en": "Arts, entertainment and recreation activities",
+      "zh": "文化、娱乐与休闲",
+      "alias": "D90T93"
+    },
+    "S": {
+      "code": "S",
+      "en": "Other service activities",
+      "zh": "其他服务",
+      "alias": "D94T96"
+    },
+    "T": {
+      "code": "T",
+      "en": "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use",
+      "zh": "家庭雇佣与自用生产",
+      "alias": "D97T98"
+    }
+  }
+}

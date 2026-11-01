@@ -4,12 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gvc-explorer"
-version = "0.1.0"
+version = "0.2.0"
 description = "Reproducible WWZ T1–T16 decomposition of multi-regional IO tables"
 requires-python = ">=3.10"
-dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "lxml>=4.9,<7", "pandas>=2,<3", "plotly>=5,<7", "streamlit>=1.30,<2"]
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "lxml>=4.9,<7", "pandas>=2,<3", "plotly>=5,<7", "matplotlib>=3.7,<4", "fonttools>=4.39,<5"]
 
 [project.optional-dependencies]
+legacy = ["streamlit>=1.30,<2"]
 dev = ["pytest>=7,<10"]
 
 [tool.setuptools.packages.find]
@@ -19,4 +20,6 @@ where = ["src"]
 pythonpath = ["src"]
 
 [tool.setuptools.package-data]
-gvc = ["data/*.json"]
+gvc = ["data/*.json", "web/*.html", "web/*.js", "web/*.css"]
+
+"gvc.vendor.nature_figure" = ["LICENSE.txt", "NOTICE.txt"]

@@ -1,3 +1,5 @@
+> Historical note from the earlier release. For the current importer, workbook label audit, and figure checks, see [the release README](../README_EN.md) and [design notes](studio_design.md).
+
 # 源码审计记录
 
 原始来源：用户 Google Drive 文件夹“全球价值链贸易核算matlab程序（TIVA，WWZ分解方法大全）以及区域表链接方法”。已获取源程序和 2007 年数据文件副本；原始文件保留于 `data/`。

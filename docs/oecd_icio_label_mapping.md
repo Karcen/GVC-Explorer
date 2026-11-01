@@ -1,3 +1,5 @@
+> Historical note from the earlier release. For the current importer, workbook label audit, and figure checks, see [the release README](../README_EN.md) and [design notes](studio_design.md).
+
 # OECD ICIO 2025 Extended — Dimension mapping
 
 Source: user-provided `data/oecd_source/ReadMe_ICIO_extended.xlsx`, sheet `Area_Activities`. The `RowItems` and `ColItems` sheets verify the ordering of all 4,250 intermediate-input activity columns and rows.

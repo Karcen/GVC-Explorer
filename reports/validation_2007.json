@@ -9,7 +9,6 @@
     48
   ],
   "max_export_accounting_identity_absolute_residual": 1.1641532182693481e-10,
-  "aggregate_gross_exports_unverified_currency_unit": 17071424.209259592,
   "matlab_reference_type": "Saved CSV exports, not a fresh MATLAB run",
   "maximum_item_scaled_relative_error": 4.985601486984813e-05,
   "reference_comparison": {
@@ -97,5 +96,7 @@
   "tests_passed": 3,
   "tests_failed": 0,
   "streamlit_browser_test": "not run: Streamlit unavailable in this environment",
-  "offline_html_browser_test": "Chromium: selectors changed KPI values; no page JavaScript errors"
+  "offline_html_browser_test": "Chromium: selectors changed KPI values; no page JavaScript errors",
+  "aggregate_gross_exports_usd_million": 17071424.209259592,
+  "unit_source": "2007global.xlsx, Sheet1!C4"
 }

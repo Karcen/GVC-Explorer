@@ -1,3 +1,5 @@
+> Historical note from the earlier release. For the current importer, workbook label audit, and figure checks, see [the release README](../README_EN.md) and [design notes](studio_design.md).
+
 # Codex continuation
 
 Use Codex locally from the project root after examining `AGENTS.md`. The current workspace has no Codex executable, so the changes in this delivery were implemented and tested directly, not through a Codex session.

@@ -18,7 +18,7 @@ report={'source':'valueadded2007.m, 2007global.xlsx/Sheet2',
         'reproduced_year':2007,'economic_units':48,'industry_count':17,
         'output_array_shape':list(res.terms.shape),
         'max_export_accounting_identity_absolute_residual':res.max_error(),
-        'aggregate_gross_exports_unverified_currency_unit':float(res.total_exports.sum()),
+        'aggregate_gross_exports_usd_million':float(res.total_exports.sum()),
         'matlab_reference_type':'Saved CSV exports, not a fresh MATLAB run',
         'maximum_item_scaled_relative_error':max(v['max_relative_to_unit_scale'] for v in c.values()),
         'reference_comparison':c,
@@ -42,5 +42,5 @@ fig=bar_figure(frame,'WWZ T1–T16 · 2007 aggregate contributions')
 fig.savefig(root/'reports/wwz_2007_aggregate.png',dpi=200,bbox_inches='tight')
 fig.savefig(root/'reports/wwz_2007_aggregate.svg',bbox_inches='tight')
 plt.close(fig)
-print('Manifest',len(manifest),'original files; aggregate gross exports',report['aggregate_gross_exports_unverified_currency_unit'])
+print('Manifest',len(manifest),'original files; aggregate gross exports',report['aggregate_gross_exports_usd_million'])
 print('Max accounting residual',res.max_error(),'max scaled relative error',report['maximum_item_scaled_relative_error'])

@@ -1,0 +1,166 @@
+{
+  "source": "Yuan1z0825/nature-skills:skills/nature-figure/scripts/audit_pdf_text.py",
+  "git_blob": "10830f22870fe00f365df3989e0af56e6481cb21",
+  "results": [
+    {
+      "pdf": "en/corridors.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "en/destinations.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "en/directions.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "en/groups.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "en/heatmap.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "en/industries.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "en/terms.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 6,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "en/trade_profile.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 9,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "zh/corridors.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "zh/destinations.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "zh/directions.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "zh/groups.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "zh/heatmap.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "zh/industries.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 7,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "zh/terms.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 6,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    {
+      "pdf": "zh/trade_profile.pdf",
+      "auditable": true,
+      "minimum_required_pt": 6.5,
+      "minimum_found_pt": 6.6,
+      "text_run_count": 9,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    }
+  ]
+}

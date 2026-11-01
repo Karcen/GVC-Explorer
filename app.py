@@ -17,6 +17,7 @@ import plotly.graph_objects as go
 import streamlit as st
 from gvc import load_2007_global, load_reference_terms, compute_wwz, reference_comparison
 from gvc.engine import IOSystem, WWZResult
+from gvc.studio_io import catalog as studio_catalog, digest
 from gvc.terms import TERMS as TERM_INFO
 from gvc.metadata import load_oecd_icio_catalog, resolve_labels, OECD_ICIO_SCHEMA, oecd_metadata_template
 
@@ -54,6 +55,10 @@ def load_directory(folder:Path,s:int,n:int)->tuple[WWZResult,dict]:
             user_meta=json.load(f)
         for key in ('year','unit','country_names','industry_names','classification','axis_order_confirmed','economy_codes','sector_codes'):
             if key in user_meta:meta[key]=user_meta[key]
+    if io_xlsx.is_file():
+        ref = studio_catalog('legacy_axes')
+        if digest(io_xlsx) == ref['sha256'] and (s,n)==(48,17):
+            meta.update(year=2007, unit='USD million', country_names=[i['zh']+' / '+i['en'] for i in ref['areas']], industry_names=[i['zh']+' / '+i['en'] for i in ref['sectors']])
     # Validate label provenance before the expensive WWZ computation.
     _, _, meta['label_source'] = resolve_labels(meta, s, n)
     result=compute_wwz(io_data)
@@ -111,7 +116,7 @@ def export_fig(df, title, fmt):
 
 
 st.title('GVC Explorer')
-st.markdown('Global Value Chain Decomposition · WWZ 16-term accounting · Local research tool  \nDeveloped by [Jiacheng Zheng](https://karcen.github.io/)')
+st.markdown('Global Value Chain Decomposition · WWZ 16-term accounting · Local research tool  \n本软件由 [Jiacheng Zheng](https://karcen.github.io/) 使用 Codex 辅助开发。')
 with st.sidebar:
     st.header('数据源 / Data source')
     choice=st.radio('输入方式',('内置 2007 样例','本地 IO 文件夹','上传 ZIP 数据包'),index=0)

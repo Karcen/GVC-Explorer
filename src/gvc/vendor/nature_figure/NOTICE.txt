@@ -1,0 +1,5 @@
+Yuan1z0825/nature-skills — nature-figure, audit_pdf_text.py.
+https://github.com/Yuan1z0825/nature-skills/blob/main/skills/nature-figure/scripts/audit_pdf_text.py
+Unmodified upstream file, Git blob 10830f22870fe00f365df3989e0af56e6481cb21.
+Licensed under the upstream Apache License, Version 2.0; see LICENSE.txt.
+This distribution includes only the PDF text auditor, not the full upstream skill collection.

@@ -1,0 +1,13 @@
+{
+  "view": {
+    "exporter": 16,
+    "importer": 46,
+    "sector": -1,
+    "term": 0
+  },
+  "indices": "zero-based; sector -1 = all",
+  "language": "en",
+  "source": "2007global.xlsx",
+  "unit": "USD million",
+  "basis": "VA"
+}

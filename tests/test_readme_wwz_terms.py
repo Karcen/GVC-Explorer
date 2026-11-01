@@ -19,6 +19,6 @@ def test_bilingual_readmes_define_all_16_terms_with_formulas():
         formula_labels = re.findall(r"^T_\{?(\d+)\}?\^\{sr\}", document, flags=re.MULTILINE)
         assert formula_labels == [str(i) for i in range(1, 17)], filename
         assert PAPER in document, filename
-        assert document.count("$$") == 34, filename  # 16 terms + export identity
+        assert document.count("```math\n") == 17, filename  # 16 terms + export identity
         assert "valueadded2007.m" in document, filename
         assert "https://www.nber.org/papers/w19677" in document, filename

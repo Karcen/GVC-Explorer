@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "actual Plotly axes fit the desktop cards",
+    "language + named default route",
+    "term/group values agree with Python",
+    "heatmap values + click-to-select linked sector and importer",
+    "scatter and corridor ranking agree with Python",
+    "bilingual code search",
+    "CSV download",
+    "mobile 390px layout"
+  ],
+  "page_errors": [],
+  "http_requests": []
+}

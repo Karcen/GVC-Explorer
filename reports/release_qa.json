@@ -1,0 +1,37 @@
+{
+  "python_tests": "21 passed in 8.70s",
+  "end_to_end_reference": {
+    "file": "2007global.xlsx",
+    "basis": "VA",
+    "unit": "USD million",
+    "dimensions": [
+      48,
+      17
+    ],
+    "gross_exports": 17071424.209259592,
+    "max_absolute_export_residual": 1.1641532182693481e-10,
+    "max_abs_differences_vs_saved_python_arrays": {
+      "terms": 0.0,
+      "total_exports": 0.0,
+      "discrepancy": 0.0
+    },
+    "versions": {
+      "python": "3.13.5",
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "matplotlib": "3.10.8"
+    },
+    "all_result_hashes_verified": true
+  },
+  "reference_data_and_saved_output_files_preserved": 44,
+  "gui_test": "reports/desktop_qa.json",
+  "browser_test": "reports/browser_qa.json",
+  "math_test": "reports/formula_qa.json",
+  "nature_figure_text": "reports/nature_text_audit.json",
+  "figure_geometry_and_raster": "reports/figure_qa.json",
+  "not_tested": [
+    "Native Windows and macOS launchers",
+    "Entire real OECD 2025 annual matrix",
+    "Fresh MATLAB execution"
+  ]
+}

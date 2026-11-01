@@ -1,0 +1,337 @@
+{
+  "sha256": "a018b8f07ce092e6d114928ee70315d20415ddb46316a9b18c6dc15080fef478",
+  "areas": [
+    {
+      "code": "AUS",
+      "zh": "澳大利亚",
+      "en": "Australia"
+    },
+    {
+      "code": "AUT",
+      "zh": "奥地利",
+      "en": "Austria"
+    },
+    {
+      "code": "BEL",
+      "zh": "比利时",
+      "en": "Belgium"
+    },
+    {
+      "code": "BGR",
+      "zh": "保加利亚",
+      "en": "Bulgaria"
+    },
+    {
+      "code": "BRA",
+      "zh": "巴西",
+      "en": "Brazil"
+    },
+    {
+      "code": "CAN",
+      "zh": "加拿大",
+      "en": "Canada"
+    },
+    {
+      "code": "CHN_DB",
+      "zh": "中国·东北",
+      "en": "Northeast China"
+    },
+    {
+      "code": "CHN_JJ",
+      "zh": "中国·京津",
+      "en": "Beijing–Tianjin"
+    },
+    {
+      "code": "CHN_BBYH",
+      "zh": "中国·北部沿海",
+      "en": "Northern coastal China"
+    },
+    {
+      "code": "CHN_DBYH",
+      "zh": "中国·东部沿海",
+      "en": "Eastern coastal China"
+    },
+    {
+      "code": "CHN_NBYH",
+      "zh": "中国·南部沿海",
+      "en": "Southern coastal China"
+    },
+    {
+      "code": "CHN_ZB",
+      "zh": "中国·中部",
+      "en": "Central China"
+    },
+    {
+      "code": "CHN_XB",
+      "zh": "中国·西北",
+      "en": "Northwest China"
+    },
+    {
+      "code": "CHN_XN",
+      "zh": "中国·西南",
+      "en": "Southwest China"
+    },
+    {
+      "code": "CYP",
+      "zh": "塞浦路斯",
+      "en": "Cyprus"
+    },
+    {
+      "code": "CZE",
+      "zh": "捷克",
+      "en": "Czechia"
+    },
+    {
+      "code": "DEU",
+      "zh": "德国",
+      "en": "Germany"
+    },
+    {
+      "code": "DNK",
+      "zh": "丹麦",
+      "en": "Denmark"
+    },
+    {
+      "code": "ESP",
+      "zh": "西班牙",
+      "en": "Spain"
+    },
+    {
+      "code": "EST",
+      "zh": "爱沙尼亚",
+      "en": "Estonia"
+    },
+    {
+      "code": "FIN",
+      "zh": "芬兰",
+      "en": "Finland"
+    },
+    {
+      "code": "FRA",
+      "zh": "法国",
+      "en": "France"
+    },
+    {
+      "code": "GBR",
+      "zh": "英国",
+      "en": "United Kingdom"
+    },
+    {
+      "code": "GRC",
+      "zh": "希腊",
+      "en": "Greece"
+    },
+    {
+      "code": "HUN",
+      "zh": "匈牙利",
+      "en": "Hungary"
+    },
+    {
+      "code": "IDN",
+      "zh": "印度尼西亚",
+      "en": "Indonesia"
+    },
+    {
+      "code": "IND",
+      "zh": "印度",
+      "en": "India"
+    },
+    {
+      "code": "IRL",
+      "zh": "爱尔兰",
+      "en": "Ireland"
+    },
+    {
+      "code": "ITA",
+      "zh": "意大利",
+      "en": "Italy"
+    },
+    {
+      "code": "JPN",
+      "zh": "日本",
+      "en": "Japan"
+    },
+    {
+      "code": "KOR",
+      "zh": "韩国",
+      "en": "South Korea"
+    },
+    {
+      "code": "LTU",
+      "zh": "立陶宛",
+      "en": "Lithuania"
+    },
+    {
+      "code": "LUX",
+      "zh": "卢森堡",
+      "en": "Luxembourg"
+    },
+    {
+      "code": "LVA",
+      "zh": "拉脱维亚",
+      "en": "Latvia"
+    },
+    {
+      "code": "MEX",
+      "zh": "墨西哥",
+      "en": "Mexico"
+    },
+    {
+      "code": "MLT",
+      "zh": "马耳他",
+      "en": "Malta"
+    },
+    {
+      "code": "NLD",
+      "zh": "荷兰",
+      "en": "Netherlands"
+    },
+    {
+      "code": "POL",
+      "zh": "波兰",
+      "en": "Poland"
+    },
+    {
+      "code": "PRT",
+      "zh": "葡萄牙",
+      "en": "Portugal"
+    },
+    {
+      "code": "ROM",
+      "zh": "罗马尼亚",
+      "en": "Romania"
+    },
+    {
+      "code": "RUS",
+      "zh": "俄罗斯",
+      "en": "Russia"
+    },
+    {
+      "code": "SVK",
+      "zh": "斯洛伐克",
+      "en": "Slovakia"
+    },
+    {
+      "code": "SVN",
+      "zh": "斯洛文尼亚",
+      "en": "Slovenia"
+    },
+    {
+      "code": "SWE",
+      "zh": "瑞典",
+      "en": "Sweden"
+    },
+    {
+      "code": "TUR",
+      "zh": "土耳其",
+      "en": "Türkiye"
+    },
+    {
+      "code": "TWN",
+      "zh": "中国台北",
+      "en": "Chinese Taipei"
+    },
+    {
+      "code": "USA",
+      "zh": "美国",
+      "en": "United States"
+    },
+    {
+      "code": "RoW",
+      "zh": "世界其他地区",
+      "en": "Rest of the world"
+    }
+  ],
+  "sectors": [
+    {
+      "code": "L01",
+      "zh": "农林牧渔业",
+      "en": "Agriculture, forestry, livestock and fishing"
+    },
+    {
+      "code": "L02",
+      "zh": "采选业",
+      "en": "Mining and ore dressing"
+    },
+    {
+      "code": "L03",
+      "zh": "食品制造及烟草加工业",
+      "en": "Food and tobacco manufacturing"
+    },
+    {
+      "code": "L04",
+      "zh": "纺织服装业",
+      "en": "Textiles and apparel"
+    },
+    {
+      "code": "L05",
+      "zh": "木材加工及家具制造业",
+      "en": "Wood products and furniture"
+    },
+    {
+      "code": "L06",
+      "zh": "造纸印刷及文教体育用品制造业",
+      "en": "Paper, printing, cultural and sporting goods"
+    },
+    {
+      "code": "L07",
+      "zh": "化学工业",
+      "en": "Chemicals"
+    },
+    {
+      "code": "L08",
+      "zh": "非金属矿物制品业",
+      "en": "Non-metallic mineral products"
+    },
+    {
+      "code": "L09",
+      "zh": "金属品冶炼及制品业",
+      "en": "Metal smelting and metal products"
+    },
+    {
+      "code": "L10",
+      "zh": "机械工业",
+      "en": "Machinery"
+    },
+    {
+      "code": "L11",
+      "zh": "交通运输设备制造业",
+      "en": "Transport equipment"
+    },
+    {
+      "code": "L12",
+      "zh": "电子电器设备制造业",
+      "en": "Electronic and electrical equipment"
+    },
+    {
+      "code": "L13",
+      "zh": "其他制造业",
+      "en": "Other manufacturing"
+    },
+    {
+      "code": "L14",
+      "zh": "电力及蒸汽热水、煤气、自来水的生产和供应业",
+      "en": "Electricity, heat, gas and water supply"
+    },
+    {
+      "code": "L15",
+      "zh": "建筑业",
+      "en": "Construction"
+    },
+    {
+      "code": "L16",
+      "zh": "货物运输及仓储业",
+      "en": "Freight transport and storage"
+    },
+    {
+      "code": "L17",
+      "zh": "其他服务业",
+      "en": "Other services"
+    }
+  ],
+  "year": 2007,
+  "unit": "USD million",
+  "basis": "VA",
+  "source": "2007global.xlsx",
+  "layout": "legacy_2007"
+}

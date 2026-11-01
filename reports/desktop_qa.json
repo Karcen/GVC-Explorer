@@ -1,0 +1,13 @@
+{
+  "runtime": "Tk under Linux/Xvfb",
+  "switch_languages": true,
+  "switch_chart": true,
+  "import_via_desktop_worker": "fixture_3area_3sector.csv",
+  "exit_status": 0,
+  "formats_verified": [
+    "pdf",
+    "png",
+    "svg"
+  ],
+  "auto_open_results": true
+}

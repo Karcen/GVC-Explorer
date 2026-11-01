@@ -28,7 +28,12 @@ class IOSystem:
         assert self.gross_output.shape == (m,)
         for name, v in [('Z',self.intermediate),('Y',self.final_demand),('VA',self.value_added),('X',self.gross_output)]:
             assert np.isfinite(v).all(), f'{name} contains NaN/Inf'
-        assert (self.gross_output > 0).all(), 'Gross output must be > 0 for coefficient construction'
+        if (self.gross_output < 0).any(): raise ValueError('Negative gross output')
+        # Structural zeros are allowed only when both the input column and all sales are zero.
+        empty = self.gross_output == 0
+        if (np.any(self.intermediate[empty]) or np.any(self.intermediate[:,empty]) or
+            np.any(self.final_demand[empty]) or np.any(self.value_added[empty])):
+            raise ValueError('Zero output with nonzero transactions or value added / 零产出行业存在非零交易')
         return self
 
 
@@ -77,8 +82,9 @@ def compute_wwz(io:IOSystem, progress=None)->WWZResult:
     S,N=io.countries,io.sectors
     M=S*N
     if progress:progress('Constructing Leontief matrices',0.05)
-    a=io.intermediate/io.gross_output[None,:]
-    v=io.value_added/io.gross_output
+    denominator=np.where(io.gross_output==0,1.,io.gross_output)
+    a=io.intermediate/denominator[None,:]
+    v=io.value_added/denominator
     B=solve(np.eye(M)-a,np.eye(M),assume_a='gen',check_finite=True)
     ab=a.reshape(S,N,S,N).transpose(0,2,1,3)
     bb=B.reshape(S,N,S,N).transpose(0,2,1,3)
@@ -96,7 +102,6 @@ def compute_wwz(io:IOSystem, progress=None)->WWZResult:
     if progress:progress('Computing final-demand contractions',0.25)
     # Precompute repeated block products of the original tt2..tt9 MATLAB code.
     diagY=y[np.arange(S),np.arange(S)] # (S,N)
-    b_diag=np.einsum('jtab,ta->jb',bb,diagY,optimize=True) # output indices? jtab: (j,t,a,b), input t,b -> j,a
     b_diag=np.einsum('jtab,tb->ja',bb,diagY,optimize=True)
     b_to=np.einsum('jtab,tib->jia',bb,y,optimize=True) # (j,i, industry at j)
     b_export_final=np.einsum('jtab,tb->ja',bb,total_final-diagY,optimize=True)
