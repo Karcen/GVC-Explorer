@@ -1,0 +1,280 @@
+ %%%%%计算第1项的值
+ VAT=cell(S,13) 
+  for i=7:1:14
+         VAT{i,1}=0
+       for j=7:1:14 
+       VAT{i,1}=VAT{i,1}+ones(1,N)*FV{i,i}*FB{i,i}*FY{i,j}
+       end 
+        VAT{i,1}=VAT{i,1}-ones(1,N)*FV{i,i}*FB{i,i}*FY{i,i}
+  end
+    csvwrite('VATX2007.csv',VAT) 
+   
+   %%%%%计算第2项的值
+   
+
+  for i=7:1:14
+         VAT{i,2}=-ones(1,N)*FV{i,i}*FB{i,i}*FY{i,i}
+       for j=7:1:14 
+       VAT{i,2}=VAT{i,2}+ones(1,N)*FV{i,i}*FB{i,j}*FY{j,j}
+       end 
+    end
+    csvwrite('VATX2007.csv',VAT)   
+ 
+     %%%%%计算第3项的值 
+     for i=7:1:14
+         VAT{i,3}=0
+       for j=7:1:14 
+           if j==i
+              VAT{i,3}=VAT{i,3}
+           else
+               for t=7:1:14
+                   if t==i | t==j
+                    VAT{i,3}=VAT{i,3}
+                   else
+                     VAT{i,3}=VAT{i,3}+ones(1,N)*FV{i,i}*FB{i,j}*FY{j,t}
+                   end
+               end
+           end
+       end 
+    end
+    csvwrite('VATX2007.csv',VAT)    
+    
+    
+  
+ 
+    
+    %%%%%%%%%%%%%%%%%%%%%计算第7项%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+     VAT7_1=cell(S,1)
+        
+    for i=7:1:14
+        VAT7_1{i,1}=0
+      for j=1:1:6
+          for t=7:1:14
+             if t==i
+            VAT7_1{i,1}= VAT7_1{i,1}
+             else
+             VAT7_1{i,1}=VAT7_1{i,1}+ ones(1,N)*FV{i,i}*FB{i,j}*FY{j,t}
+             end
+          end
+      end
+    end
+  
+    
+     VAT7_2=cell(S,1)
+     for i=7:1:14
+       VAT7_2{i,1}=0
+      for j=15:1:S
+          for t=7:1:14
+            if t==i
+            VAT7_2{i,1}=VAT7_2{i,1}
+            else
+            VAT7_2{i,1}= VAT7_2{i,1}+ ones(1,N)*FV{i,i}*FB{i,j}*FY{j,t}
+            end  
+          end  
+      end
+     end
+      
+   for i=7:1:14
+      VAT{i,7}=VAT7_1{i,1}+VAT7_2{i,1}
+   end
+  
+    csvwrite('VATX2007.csv',VAT)   
+    
+    %%%%%%%%%%%%%%%%%%%%%计算第8项%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+    VAT8_1=cell(S,1)
+        
+    for i=7:1:14
+        VAT8_1{i,1}=0
+      for j=1:1:6
+             VAT8_1{i,1}=VAT8_1{i,1}+ ones(1,N)*FV{i,i}*FB{i,j}*FY{j,j}    
+      end
+    end
+    
+     VAT8_2=cell(S,1)
+     for i=7:1:14
+       VAT8_2{i,1}=0
+      for j=15:1:S
+        
+          VAT8_2{i,1}= VAT8_2{i,1}+ ones(1,N)*FV{i,i}*FB{i,j}*FY{j,j}
+      end  
+     end  
+   
+      
+   for i=7:1:14
+      VAT{i,8}=VAT8_1{i,1}+VAT8_2{i,1}
+   end
+  
+    csvwrite('VATX2007.csv',VAT)   
+    
+  
+    %%%%%%%%%%%%%%%%%%%%%%%%计算第9项%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      
+    VAT9_1=cell(S,1)
+        
+    for i=7:1:14
+        VAT9_1{i,1}=0
+      for j=1:1:6
+          for t=1:1:6
+              if t==j
+                VAT9_1{i,1}=VAT9_1{i,1}   
+              else
+             VAT9_1{i,1}=VAT9_1{i,1}+ ones(1,N)*FV{i,i}*FB{i,j}*FY{j,t} 
+              end
+          end
+          for t=15:1:S
+               VAT9_1{i,1}=VAT9_1{i,1}+ ones(1,N)*FV{i,i}*FB{i,j}*FY{j,t} 
+          end
+              
+      end
+    end
+    
+  
+  VAT9_2=cell(S,1)
+        
+    for i=7:1:14
+        VAT9_2{i,1}=0
+      for j=15:1:S
+          for t=1:1:6
+             VAT9_2{i,1}=VAT9_2{i,1}+ ones(1,N)*FV{i,i}*FB{i,j}*FY{j,t} 
+          end
+          for t=15:1:S
+               if t==j
+                VAT9_2{i,1}=VAT9_2{i,1}   
+              else
+               VAT9_2{i,1}=VAT9_2{i,1}+ ones(1,N)*FV{i,i}*FB{i,j}*FY{j,t} 
+               end
+          end
+              
+      end
+    end
+      
+   for i=7:1:14
+      VAT{i,9}=VAT9_1{i,1}+VAT9_2{i,1}
+   end
+  
+    csvwrite('VATX2007.csv',VAT)   
+    
+ 
+    
+    
+    
+    
+  
+    %%%%%%%%%%%%%计算第12项
+    
+    VAT12_1=cell(S,1)
+    
+    for i=7:1:14
+        VAT12_1{i,1}=0
+      for j=1:1:6
+             VAT12_1{i,1}=VAT12_1{i,1}+ ones(1,N)*FV{i,i}*FB{i,i}*FY{i,j}    
+      end
+    end
+    
+     VAT12_2=cell(S,1)
+     for i=7:1:14
+       VAT12_2{i,1}=0
+      for j=15:1:S
+          VAT12_2{i,1}= VAT12_2{i,1}+ ones(1,N)*FV{i,i}*FB{i,i}*FY{i,j} 
+       end  
+     end
+      
+   for i=7:1:14
+      VAT{i,12}=VAT12_1{i,1}+VAT12_2{i,1}
+   end
+  
+    csvwrite('VATX2007.csv',VAT)     
+    
+    
+   %%%%%%%%%%%%%计算第13项
+    
+    VAT13_1=cell(S,1)
+    
+    for i=7:1:14
+        VAT13_1{i,1}=0
+        for j=7:1:14
+            if j==i
+               VAT13_1{i,1}=VAT13_1{i,1}
+            else
+          for t=1:1:6
+             VAT13_1{i,1}=VAT13_1{i,1}+ ones(1,N)*FV{i,i}*FB{i,j}*FY{j,t} 
+          end
+            end
+       end
+    end 
+     VAT13_2=cell(S,1)
+     
+     for i=7:1:14
+       VAT13_2{i,1}=0
+    for j=7:1:14
+            if j==i
+              VAT13_2{i,1}=VAT13_2{i,1}
+            else
+             for t=15:1:S      
+          VAT13_2{i,1}= VAT13_2{i,1}+ ones(1,N)*FV{i,i}*FB{i,j}*FY{j,t} 
+             end  
+            end
+    end
+     end
+       
+   for i=7:1:14
+      VAT{i,13}=VAT13_1{i,1}+VAT13_2{i,1}
+   end
+  
+    csvwrite('VATX2007.csv',VAT)    
+    
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    
+  
+
+    
+    
+  %%%%%%%
+  
+ VAT11_1=cell(S,1)
+    
+    for i=7:1:14
+        VAT11_1{i,1}=0
+        for j=7:1:14
+            if j==i
+               VAT11_1{i,1}=VAT11_1{i,1}
+            else
+          for t=1:1:S
+             VAT11_1{i,1}=VAT11_1{i,1}+ ones(1,N)*FV{i,i}*(FB{i,j}-FBd{i,j})*FY{j,t} 
+          end
+            end
+       end
+    end 
+    
+     VAT11_2=cell(S,1)
+     for i=7:1:14
+       VAT11_2{i,1}=0
+    for j=7:1:14
+            if j==i
+              VAT11_2{i,1}=VAT11_2{i,1}
+            else
+             for t=7:1:14   
+              VAT11_2{i,1}= VAT11_2{i,1}+ ones(1,N)*FV{i,i}*(FB{i,j}-FBd{i,j})*FY{j,t} 
+             end  
+            end
+    end
+     end
+     
+      
+   for i=7:1:14
+      VAT{i,11}=VAT11_1{i,1}-VAT11_2{i,1}
+   end
+  
+    csvwrite('VAT2007.csv',VAT)    
+          
+            
+
+  
+  
+  
+  
+    
+    
+      

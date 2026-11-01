@@ -1,0 +1,202 @@
+[
+  {
+    "path": "data/reference_2007/2007global.xlsx",
+    "bytes": 22407765,
+    "sha256": "a018b8f07ce092e6d114928ee70315d20415ddb46316a9b18c6dc15080fef478"
+  },
+  {
+    "path": "data/reference_2007/CHECKva2007.csv",
+    "bytes": 431288,
+    "sha256": "8a140bf9d11c454ad276d5867f66f219bc1300020bc6b0d89dd0b03d116ee67b"
+  },
+  {
+    "path": "data/reference_2007/T10va2007.csv",
+    "bytes": 351524,
+    "sha256": "be45da101f5b58eec70661f5e8d091f8f6fded9b1cc17b790e296265d3f2019c"
+  },
+  {
+    "path": "data/reference_2007/T11va2007.csv",
+    "bytes": 363290,
+    "sha256": "4f843ed6d2a42152f17f48f49fb25ac1e177ef396d56eb67ce5efe302b0f3209"
+  },
+  {
+    "path": "data/reference_2007/T12va2007.csv",
+    "bytes": 360528,
+    "sha256": "7b0788de3894c99c232baa6f2076f5d5da3856c3803997611d1f6bab104e8dae"
+  },
+  {
+    "path": "data/reference_2007/T13va2007.csv",
+    "bytes": 364988,
+    "sha256": "e7efbf2aee3330dac3223eafe86aa04ccadee0d789786342a74b4c2d4baf5659"
+  },
+  {
+    "path": "data/reference_2007/T14va2007.csv",
+    "bytes": 297345,
+    "sha256": "70e6c3939faec284220bc7df6865135b76107043d50f2928fec49b741a1cfc27"
+  },
+  {
+    "path": "data/reference_2007/T15va2007.csv",
+    "bytes": 293201,
+    "sha256": "abdcff18057a6bb89e3669ab5ab2e7724ef3a18c196123bb08d42ea532fb89c5"
+  },
+  {
+    "path": "data/reference_2007/T16va2007.csv",
+    "bytes": 297264,
+    "sha256": "ed2d224087fd2bab9fb71e0d4cb2ff9bc234afc8994537da9ce0f04217c75e99"
+  },
+  {
+    "path": "data/reference_2007/T1va2007.csv",
+    "bytes": 287425,
+    "sha256": "7ba9f53ca77bbc0cef5833de400673281116d626fe227edac865999e1d69e05d"
+  },
+  {
+    "path": "data/reference_2007/T2va2007.csv",
+    "bytes": 284588,
+    "sha256": "46be2b2d9a67a73ab870681c4c182a96e8bd344b129f065210c4277aa0271e1c"
+  },
+  {
+    "path": "data/reference_2007/T3va2007.csv",
+    "bytes": 295631,
+    "sha256": "0fee5c8befc693cd1ab8cc2a16a8ac167acce4d65f0d9aa108fdc0c4a79b2141"
+  },
+  {
+    "path": "data/reference_2007/T4va2007.csv",
+    "bytes": 297572,
+    "sha256": "12eb81534785cdef9f97fee21d035231e1d33e582170337b1a0a669cd683ac78"
+  },
+  {
+    "path": "data/reference_2007/T5va2007.csv",
+    "bytes": 308812,
+    "sha256": "ab528deb192c76f5e634c4538d6ebc135fa34413cc0c5b91a0491860157f07c2"
+  },
+  {
+    "path": "data/reference_2007/T6va2007.csv",
+    "bytes": 368827,
+    "sha256": "43077dae0da2d16304ae693490e35ae6b8e0885b24e4e0be695b2c7db856f601"
+  },
+  {
+    "path": "data/reference_2007/T7va2007.csv",
+    "bytes": 372373,
+    "sha256": "c368ffaaecacf142dcd0e6fc052861755adfee5ee8622c47810873b237c14aad"
+  },
+  {
+    "path": "data/reference_2007/T8va2007.csv",
+    "bytes": 362222,
+    "sha256": "e2081941ddb9015e43dd12eea328098c7f5f2a79ddbe51ef0188983c18a02556"
+  },
+  {
+    "path": "data/reference_2007/T9va2007.csv",
+    "bytes": 375571,
+    "sha256": "8c7142adba046e91a9d538e668b3a6d401b25bc75a9b0f84cd58bbffa55fa4a4"
+  },
+  {
+    "path": "data/reference_2007/totaexport2007.csv",
+    "bytes": 5548,
+    "sha256": "e772d0c03b91fc1f1fc43c16d5ec9a03fb44ba15fd47417cbf914f02bcb0025e"
+  },
+  {
+    "path": "data/matlab_original/GVCDVC.m",
+    "bytes": 5253,
+    "sha256": "ce27a461bec661b34341c0aca1955f18551d3cd808c8c3883c056eaa87cdf08f"
+  },
+  {
+    "path": "data/matlab_original/tradeinvalueadded2007.m",
+    "bytes": 17664,
+    "sha256": "ddd1b30f7259d4686d2da9816f8ba75d3cfb13fde1235703bb165fbc29035f0b"
+  },
+  {
+    "path": "data/matlab_original/valueadded2007.m",
+    "bytes": 13230,
+    "sha256": "f6cfc86b7da1afe810042d13a924bee1e409efd6412801590cd3c857c6599f40"
+  },
+  {
+    "path": "data/legacy_unported/2007global.xls",
+    "bytes": 7519232,
+    "sha256": "c970153fb54fb0835328d464e5f734ae94b561458e15ddc3384bd81fe498d133"
+  },
+  {
+    "path": "data/legacy_unported/2007年WIOT与中国区域表的联接2倪红福.xlsx",
+    "bytes": 38735737,
+    "sha256": "d7360f755beda47eb3bcaa07c349ba17c02e771af6878fbaf6fa1044a89d0c7e"
+  },
+  {
+    "path": "data/legacy_unported/2007年valueadded.asv",
+    "bytes": 12133,
+    "sha256": "8226f90c87ccba7997503fedc566cca63fec04ddb0d334cd33242ff2e0772636"
+  },
+  {
+    "path": "data/legacy_unported/AVATX2007.csv",
+    "bytes": 409,
+    "sha256": "0eee36d37d4eb2ed8e57c2b50438990b187d67d748b5de9fe2715c40ded0027b"
+  },
+  {
+    "path": "data/legacy_unported/C2ALLVAPL2007.csv",
+    "bytes": 397,
+    "sha256": "23addba15202ad330c867a94906d08d2b03c866d0e8ac247ad273e19e22e6fd0"
+  },
+  {
+    "path": "data/legacy_unported/GVCDVC.asv",
+    "bytes": 5966,
+    "sha256": "cd9882b03544f9fde3ad1a5c6b073bda3349f3598f948bfc046ac0b478ee8bbe"
+  },
+  {
+    "path": "data/legacy_unported/VAT2007.csv",
+    "bytes": 782,
+    "sha256": "3daa777612ba6a121526d789c9bd9761a25aeb6f5d335adba7353e5ed3b45d3f"
+  },
+  {
+    "path": "data/legacy_unported/VAT2007.xlsx",
+    "bytes": 9206,
+    "sha256": "e0be8b50b0f5e2dce0774c24bccf9ea6af63496ebd5fed015040bce3aeeda280"
+  },
+  {
+    "path": "data/legacy_unported/VAT200749.xlsx",
+    "bytes": 11113,
+    "sha256": "6a939f24b834cfcdfd416a40f00e4161aedb2ba845d41ed4723981e26a32c772"
+  },
+  {
+    "path": "data/legacy_unported/VATX2007.csv",
+    "bytes": 501,
+    "sha256": "cdf642878ff5261f5cabe3eec3ae682f43ecf6492ce1b34b82664fa7de8d10e1"
+  },
+  {
+    "path": "data/legacy_unported/global.xls",
+    "bytes": 19968,
+    "sha256": "d756e27e648dd8334752f7ab1c5b0d3f2ccca1b213cdf3c05fd02fd0d8488b6e"
+  },
+  {
+    "path": "data/legacy_unported/totatexport2007.csv",
+    "bytes": 5512,
+    "sha256": "74e2245e0359a555c5d837eb34a152bbe59d0380c6312e68c367fe310f018660"
+  },
+  {
+    "path": "data/legacy_unported/vtdata.csv",
+    "bytes": 276578,
+    "sha256": "a9d722af814c8e9f4ea907b31a51278604e3d28f2876a68c22a7b6385bee9c43"
+  },
+  {
+    "path": "data/legacy_unported/vtdata.xls",
+    "bytes": 8019,
+    "sha256": "3d286a3189e5f125ccd39b1d28297ba9ad511ff28a24745998ad536c5f1ba85a"
+  },
+  {
+    "path": "data/legacy_unported/vtdata.xlsx",
+    "bytes": 370094,
+    "sha256": "44ff3d1c51c0f64c62b41c0570787f1af9b04ca47b48bca4e1be0fe1b2d16e83"
+  },
+  {
+    "path": "data/legacy_unported/vtdata.xsls",
+    "bytes": 8022,
+    "sha256": "05e2cec16f443741b826d00ad20c0712ac475812313b101c3eab6b65f49e897c"
+  },
+  {
+    "path": "data/legacy_unported/vtdata1.xlsx",
+    "bytes": 8019,
+    "sha256": "0b42c248f9b1868689da69cde8ecb262667366563a8a91dfa2808e739149dc04"
+  },
+  {
+    "path": "data/legacy_unported/vtdata2007.csv",
+    "bytes": 275962,
+    "sha256": "e12432c76aee71d0a3b966e95b389b7da8ae88dbc2b36d3bcf6ee8724b2c8276"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "edition": 2025,
+  "source_file": "data/oecd_source/ReadMe_ICIO_extended.xlsx",
+  "source_sheets": [
+    "Area_Activities",
+    "RowItems",
+    "ColItems"
+  ],
+  "validation": {
+    "economy_codes_and_names": "85/85 exact matches",
+    "sector_codes_names_isic": "50/50 exact matches",
+    "row_activity_order": "4250/4250 exact matches",
+    "column_activity_order": "4250/4250 exact matches",
+    "browser_interaction": "PASS: two Jiacheng Zheng links, 85/50 selects, DEU and K detail, updated legacy gross exports, no JS errors",
+    "python_tests": "11 passed",
+    "streamlit_runtime": "NOT TESTED (streamlit unavailable; package installation failed due DNS)",
+    "codex_execution": "NOT RUN (Codex CLI unavailable)",
+    "nature_skills": "NOT AVAILABLE (user Mac local path not mounted)",
+    "oecd_2025_numerical_engine": "NOT TESTED (README provides dimensions, not actual input data)"
+  },
+  "author": {
+    "name": "Jiacheng Zheng",
+    "url": "https://karcen.github.io/"
+  },
+  "source_sha256": "5ef98ae2cdc66d943cc120977897afea99ade1ed38eca5577f2923882a65fe37",
+  "catalog_sha256": "0f91f200cfa3f7288a10de88d9b663abcfa318adce701a750e64f73e657800dd"
+}

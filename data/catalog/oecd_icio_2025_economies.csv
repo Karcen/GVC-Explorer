@@ -1,0 +1,86 @@
+﻿position,code,name
+1,AGO,Angola
+2,ARE,United Arab Emirates
+3,ARG,Argentina
+4,AUS,Australia
+5,AUT,Austria
+6,BEL,Belgium
+7,BGD,Bangladesh
+8,BGR,Bulgaria
+9,BLR,Belarus
+10,BRA,Brazil
+11,BRN,Brunei Darussalam
+12,CAN,Canada
+13,CHE,Switzerland
+14,CHL,Chile
+15,CHN,"China, People's Republic of"
+16,CIV,Côte d'Ivoire
+17,CMR,Cameroon
+18,COD,Democratic Republic of the Congo
+19,COL,Colombia
+20,CRI,Costa Rica
+21,CYP,Cyprus (1)
+22,CZE,Czechia
+23,DEU,Germany
+24,DNK,Denmark
+25,EGY,Egypt
+26,ESP,Spain
+27,EST,Estonia
+28,FIN,Finland
+29,FRA,France
+30,GBR,United Kingdom
+31,GRC,Greece
+32,HKG,"Hong Kong, China"
+33,HRV,Croatia
+34,HUN,Hungary
+35,IDN,Indonesia
+36,IND,India
+37,IRL,Ireland
+38,ISL,Iceland
+39,ISR,Israel (2)
+40,ITA,Italy
+41,JOR,Jordan
+42,JPN,Japan
+43,KAZ,Kazakhstan
+44,KHM,Cambodia
+45,KOR,Korea
+46,LAO,Lao (People's Democratic Republic)
+47,LTU,Lithuania
+48,LUX,Luxembourg
+49,LVA,Latvia
+50,MAR,Morocco
+51,MEX,Mexico
+52,MLT,Malta
+53,MMR,Myanmar
+54,MYS,Malaysia
+55,NGA,Nigeria
+56,NLD,Netherlands
+57,NOR,Norway
+58,NZL,New Zealand
+59,PAK,Pakistan
+60,PER,Peru
+61,PHL,Philippines
+62,POL,Poland
+63,PRT,Portugal
+64,ROU,Romania
+65,RUS,Russian Federation
+66,SAU,Saudi Arabia
+67,SEN,Senegal
+68,SGP,Singapore
+69,STP,Saõ Tomé and Príncipe
+70,SVK,Slovak Republic
+71,SVN,Slovenia
+72,SWE,Sweden
+73,THA,Thailand
+74,TUN,Tunisia
+75,TUR,Türkiye
+76,TWN,Chinese Taipei
+77,UKR,Ukraine
+78,USA,United States
+79,VNM,Viet Nam
+80,ZAF,South Africa
+81,ROW,Rest of the World
+82,MX1,Mexico excluding global manufacturing activities
+83,MX2,Mexico global manufacturing activities
+84,CN1,China excluding processing activities
+85,CN2,China processing activities

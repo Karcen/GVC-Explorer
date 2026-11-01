@@ -1,0 +1,17 @@
+﻿term,source_derived_description_zh,formula,source_file,source_lines
+T1,出口最终产品的本国增加值,(v_i B_ii)^T ⊙ Y_ij,valueadded2007.m,281–292
+T2,中间投入出口路径 tt2：由进口国本地最终需求引致,(v_i L_i)^T ⊙ tt2_ij,valueadded2007.m,295–306
+T3,中间投入出口路径 tt3：第三地本地最终需求,(v_i L_i)^T ⊙ tt3_ij,valueadded2007.m,308–319
+T4,中间投入出口路径 tt4：进口国最终产品再出口,(v_i L_i)^T ⊙ tt4_ij,valueadded2007.m,321–332
+T5,中间投入出口路径 tt5：第三地生产及最终需求,(v_i L_i)^T ⊙ tt5_ij,valueadded2007.m,335–346
+T6,中间投入出口路径 tt6：经进口国返回出口国最终需求,(v_i L_i)^T ⊙ tt6_ij,valueadded2007.m,348–359
+T7,中间投入出口路径 tt7：跨国生产后返回出口国最终需求,(v_i L_i)^T ⊙ tt7_ij,valueadded2007.m,363–374
+T8,中间投入出口路径 tt8：出口国本地最终需求,(v_i L_i)^T ⊙ tt8_ij,valueadded2007.m,377–388
+T9,中间投入出口路径 tt9：出口国对外最终需求,(v_i L_i)^T ⊙ tt9_ij,valueadded2007.m,391–402
+T10,本国价值来源的全球逆矩阵与局部逆矩阵差额,[v_i (B_ii − L_i)]^T ⊙ DEI_ij,valueadded2007.m,406–417
+T11,直接进口国价值来源：最终产品出口,(v_j B_ji)^T ⊙ Y_ij,valueadded2007.m,420–431
+T12,直接进口国价值来源：中间投入流向其本地最终需求,(v_j B_ji)^T ⊙ (A_ij L_j Y_jj),valueadded2007.m,435–446
+T13,直接进口国价值来源：中间投入流向其对外出口,(v_j B_ji)^T ⊙ (A_ij L_j TE_j),valueadded2007.m,449–460
+T14,其他经济体价值来源：最终产品出口,w_ij^T ⊙ Y_ij,valueadded2007.m,480–491
+T15,其他经济体价值来源：中间投入流向进口国本地最终需求,w_ij^T ⊙ (A_ij L_j Y_jj),valueadded2007.m,494–505
+T16,其他经济体价值来源：中间投入流向进口国对外出口,w_ij^T ⊙ (A_ij L_j TE_j),valueadded2007.m,508–519

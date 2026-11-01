@@ -1,0 +1,51 @@
+﻿position,code,name,isic_rev4
+1,A01,Agriculture and hunting,01
+2,A02,Forestry and logging,02
+3,A03,Fishing and aquaculture,03
+4,B05,Mining of coal and lignite,05
+5,B06,Extraction of crude petroleum and natural gas,06
+6,B07,Mining of metal ores,07
+7,B08,Other mining and quarrying,08
+8,B09,Mining support service activities,09
+9,C10T12,Manufacture of food products; beverages and tobacco products,"10, 11, 12"
+10,C13T15,"Manufacture of textiles, wearing apparel, leather and related products","13, 14, 15"
+11,C16,Manufacture of wood and of products of wood and cork,16
+12,C17_18,Manufacture of paper and paper products; Printing and reproduction of recorded media,"17, 18"
+13,C19,Manufacture of coke and refined petroleum products,19
+14,C20,Manufacture of chemicals and chemical products,20
+15,C21,Manufacture of basic pharmaceutical products and pharmaceutical preparations,21
+16,C22,Manufacture of rubber and plastic products,22
+17,C23,Manufacture of other non-metallic mineral products,23
+18,C24A,Manufacture of basic iron and steel,"241, 2431"
+19,C24B,Manufacture of basic precious and other non-ferrous metals,"242, 2432"
+20,C25,Manufacture of fabricated metal products,25
+21,C26,"Manufacture of computer, electronic and optical products",26
+22,C27,Manufacture of electrical equipment,27
+23,C28,Manufacture of machinery and equipment n.e.c.,28
+24,C29,"Manufacture of motor vehicles, trailers and semi-trailers",29
+25,C301,Building of ships and boats,301
+26,C302T309,Manufacture of other transport equipment,302 to 309
+27,C31T33,Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment,"31, 32, 33"
+28,D,"Electricity, gas, steam and air conditioning supply",35
+29,E,"Water supply; sewerage, waste management and remediation activities","36, 37, 38, 39"
+30,F,Construction,"41, 42, 43"
+31,G,Wholesale and retail trade; repair of motor vehicles and motorcycles,"45, 46, 47"
+32,H49,Land transport and transport via pipelines,49
+33,H50,Water transport,50
+34,H51,Air transport,51
+35,H52,Warehousing and support activities for transportation,52
+36,H53,Postal and courier activities,53
+37,I,Accommodation and food service activities,"55, 56"
+38,J58T60,"Publishing, Motion picture, video, television programme production and broadcasting activities","58, 59, 60"
+39,J61,Telecommunications,61
+40,J62_63,Computer programming and information service activities,"62, 63"
+41,K,Financial and insurance activities,"64, 65, 66"
+42,L,Real estate activities,68
+43,M,"Professional, scientific and technical activities",69 to 75
+44,N,Administrative and support service activities,77 to 82
+45,O,Public administration and defence; compulsory social security,84
+46,P,Education,85
+47,Q,Human health and social work activities,"86, 87, 88"
+48,R,"Arts, entertainment and recreation activities","90, 91, 92, 93"
+49,S,Other service activities,"94,95, 96"
+50,T,Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use,"97, 98"

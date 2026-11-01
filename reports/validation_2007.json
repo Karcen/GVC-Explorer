@@ -1,0 +1,101 @@
+{
+  "source": "valueadded2007.m, 2007global.xlsx/Sheet2",
+  "reproduced_year": 2007,
+  "economic_units": 48,
+  "industry_count": 17,
+  "output_array_shape": [
+    16,
+    816,
+    48
+  ],
+  "max_export_accounting_identity_absolute_residual": 1.1641532182693481e-10,
+  "aggregate_gross_exports_unverified_currency_unit": 17071424.209259592,
+  "matlab_reference_type": "Saved CSV exports, not a fresh MATLAB run",
+  "maximum_item_scaled_relative_error": 4.985601486984813e-05,
+  "reference_comparison": {
+    "T1": {
+      "max_absolute_error": 0.49743064552967553,
+      "max_relative_to_unit_scale": 4.9281665030897936e-05,
+      "mean_absolute_error": 0.0010831258978808039
+    },
+    "T2": {
+      "max_absolute_error": 2.400484171754215,
+      "max_relative_to_unit_scale": 4.985601486984813e-05,
+      "mean_absolute_error": 0.0011218522553772075
+    },
+    "T3": {
+      "max_absolute_error": 0.46816323609891697,
+      "max_relative_to_unit_scale": 4.9084532380104336e-05,
+      "mean_absolute_error": 0.0003553896819911079
+    },
+    "T4": {
+      "max_absolute_error": 0.08474031463811116,
+      "max_relative_to_unit_scale": 4.965514719435314e-05,
+      "mean_absolute_error": 0.0002901279002572712
+    },
+    "T5": {
+      "max_absolute_error": 0.04872966249104138,
+      "max_relative_to_unit_scale": 4.8734554289009376e-05,
+      "mean_absolute_error": 0.00011619428648953121
+    },
+    "T6": {
+      "max_absolute_error": 0.04905675742338644,
+      "max_relative_to_unit_scale": 4.910158907604804e-05,
+      "mean_absolute_error": 3.858725177642645e-05
+    },
+    "T7": {
+      "max_absolute_error": 0.04162108776472451,
+      "max_relative_to_unit_scale": 4.8389251888434705e-05,
+      "mean_absolute_error": 9.955544540554486e-06
+    },
+    "T8": {
+      "max_absolute_error": 0.04098730295072528,
+      "max_relative_to_unit_scale": 4.934530682753876e-05,
+      "mean_absolute_error": 4.150120813283208e-05
+    },
+    "T9": {
+      "max_absolute_error": 0.03594875156522903,
+      "max_relative_to_unit_scale": 4.867049105600719e-05,
+      "mean_absolute_error": 1.4013437916996945e-05
+    },
+    "T10": {
+      "max_absolute_error": 0.04327886915848467,
+      "max_relative_to_unit_scale": 4.905462147685122e-05,
+      "mean_absolute_error": 2.1289909649007556e-05
+    },
+    "T11": {
+      "max_absolute_error": 0.16975876997821615,
+      "max_relative_to_unit_scale": 4.954105231701647e-05,
+      "mean_absolute_error": 5.974870376187885e-05
+    },
+    "T12": {
+      "max_absolute_error": 0.049542946025667334,
+      "max_relative_to_unit_scale": 4.8931051083584414e-05,
+      "mean_absolute_error": 4.431656286545597e-05
+    },
+    "T13": {
+      "max_absolute_error": 0.047651647348175175,
+      "max_relative_to_unit_scale": 4.918688461785555e-05,
+      "mean_absolute_error": 3.355459690265674e-05
+    },
+    "T14": {
+      "max_absolute_error": 0.4828708559689403,
+      "max_relative_to_unit_scale": 4.971496671872177e-05,
+      "mean_absolute_error": 0.00046110653038236436
+    },
+    "T15": {
+      "max_absolute_error": 0.20816191085759783,
+      "max_relative_to_unit_scale": 4.959319168512907e-05,
+      "mean_absolute_error": 0.0003612877241805022
+    },
+    "T16": {
+      "max_absolute_error": 0.44670212753408123,
+      "max_relative_to_unit_scale": 4.975364244189817e-05,
+      "mean_absolute_error": 0.0003343509461319088
+    }
+  },
+  "tests_passed": 3,
+  "tests_failed": 0,
+  "streamlit_browser_test": "not run: Streamlit unavailable in this environment",
+  "offline_html_browser_test": "Chromium: selectors changed KPI values; no page JavaScript errors"
+}

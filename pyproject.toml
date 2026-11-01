@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gvc-explorer"
+version = "0.1.0"
+description = "Reproducible WWZ T1–T16 decomposition of multi-regional IO tables"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "lxml>=4.9,<7", "pandas>=2,<3", "plotly>=5,<7", "streamlit>=1.30,<2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.setuptools.package-data]
+gvc = ["data/*.json"]

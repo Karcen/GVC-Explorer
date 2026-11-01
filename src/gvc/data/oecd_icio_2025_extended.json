@@ -1,0 +1,742 @@
+{
+  "id": "OECD_ICIO_2025_EXTENDED",
+  "edition": 2025,
+  "source": "OECD (2025), OECD Inter-Country Input-Output Database, https://oe.cd/icio",
+  "source_file": "ReadMe_ICIO_extended.xlsx",
+  "source_sheets": [
+    "Area_Activities",
+    "RowItems",
+    "ColItems"
+  ],
+  "unit": "current USD, million",
+  "scope_note": "80 economies, Rest of the World, and 4 additional China/Mexico split activity groups. These 85 location codes are not 85 independent sovereign countries.",
+  "economies": [
+    {
+      "position": 1,
+      "code": "AGO",
+      "name": "Angola"
+    },
+    {
+      "position": 2,
+      "code": "ARE",
+      "name": "United Arab Emirates"
+    },
+    {
+      "position": 3,
+      "code": "ARG",
+      "name": "Argentina"
+    },
+    {
+      "position": 4,
+      "code": "AUS",
+      "name": "Australia"
+    },
+    {
+      "position": 5,
+      "code": "AUT",
+      "name": "Austria"
+    },
+    {
+      "position": 6,
+      "code": "BEL",
+      "name": "Belgium"
+    },
+    {
+      "position": 7,
+      "code": "BGD",
+      "name": "Bangladesh"
+    },
+    {
+      "position": 8,
+      "code": "BGR",
+      "name": "Bulgaria"
+    },
+    {
+      "position": 9,
+      "code": "BLR",
+      "name": "Belarus"
+    },
+    {
+      "position": 10,
+      "code": "BRA",
+      "name": "Brazil"
+    },
+    {
+      "position": 11,
+      "code": "BRN",
+      "name": "Brunei Darussalam"
+    },
+    {
+      "position": 12,
+      "code": "CAN",
+      "name": "Canada"
+    },
+    {
+      "position": 13,
+      "code": "CHE",
+      "name": "Switzerland"
+    },
+    {
+      "position": 14,
+      "code": "CHL",
+      "name": "Chile"
+    },
+    {
+      "position": 15,
+      "code": "CHN",
+      "name": "China, People's Republic of"
+    },
+    {
+      "position": 16,
+      "code": "CIV",
+      "name": "Côte d'Ivoire"
+    },
+    {
+      "position": 17,
+      "code": "CMR",
+      "name": "Cameroon"
+    },
+    {
+      "position": 18,
+      "code": "COD",
+      "name": "Democratic Republic of the Congo"
+    },
+    {
+      "position": 19,
+      "code": "COL",
+      "name": "Colombia"
+    },
+    {
+      "position": 20,
+      "code": "CRI",
+      "name": "Costa Rica"
+    },
+    {
+      "position": 21,
+      "code": "CYP",
+      "name": "Cyprus (1)"
+    },
+    {
+      "position": 22,
+      "code": "CZE",
+      "name": "Czechia"
+    },
+    {
+      "position": 23,
+      "code": "DEU",
+      "name": "Germany"
+    },
+    {
+      "position": 24,
+      "code": "DNK",
+      "name": "Denmark"
+    },
+    {
+      "position": 25,
+      "code": "EGY",
+      "name": "Egypt"
+    },
+    {
+      "position": 26,
+      "code": "ESP",
+      "name": "Spain"
+    },
+    {
+      "position": 27,
+      "code": "EST",
+      "name": "Estonia"
+    },
+    {
+      "position": 28,
+      "code": "FIN",
+      "name": "Finland"
+    },
+    {
+      "position": 29,
+      "code": "FRA",
+      "name": "France"
+    },
+    {
+      "position": 30,
+      "code": "GBR",
+      "name": "United Kingdom"
+    },
+    {
+      "position": 31,
+      "code": "GRC",
+      "name": "Greece"
+    },
+    {
+      "position": 32,
+      "code": "HKG",
+      "name": "Hong Kong, China"
+    },
+    {
+      "position": 33,
+      "code": "HRV",
+      "name": "Croatia"
+    },
+    {
+      "position": 34,
+      "code": "HUN",
+      "name": "Hungary"
+    },
+    {
+      "position": 35,
+      "code": "IDN",
+      "name": "Indonesia"
+    },
+    {
+      "position": 36,
+      "code": "IND",
+      "name": "India"
+    },
+    {
+      "position": 37,
+      "code": "IRL",
+      "name": "Ireland"
+    },
+    {
+      "position": 38,
+      "code": "ISL",
+      "name": "Iceland"
+    },
+    {
+      "position": 39,
+      "code": "ISR",
+      "name": "Israel (2)"
+    },
+    {
+      "position": 40,
+      "code": "ITA",
+      "name": "Italy"
+    },
+    {
+      "position": 41,
+      "code": "JOR",
+      "name": "Jordan"
+    },
+    {
+      "position": 42,
+      "code": "JPN",
+      "name": "Japan"
+    },
+    {
+      "position": 43,
+      "code": "KAZ",
+      "name": "Kazakhstan"
+    },
+    {
+      "position": 44,
+      "code": "KHM",
+      "name": "Cambodia"
+    },
+    {
+      "position": 45,
+      "code": "KOR",
+      "name": "Korea"
+    },
+    {
+      "position": 46,
+      "code": "LAO",
+      "name": "Lao (People's Democratic Republic)"
+    },
+    {
+      "position": 47,
+      "code": "LTU",
+      "name": "Lithuania"
+    },
+    {
+      "position": 48,
+      "code": "LUX",
+      "name": "Luxembourg"
+    },
+    {
+      "position": 49,
+      "code": "LVA",
+      "name": "Latvia"
+    },
+    {
+      "position": 50,
+      "code": "MAR",
+      "name": "Morocco"
+    },
+    {
+      "position": 51,
+      "code": "MEX",
+      "name": "Mexico"
+    },
+    {
+      "position": 52,
+      "code": "MLT",
+      "name": "Malta"
+    },
+    {
+      "position": 53,
+      "code": "MMR",
+      "name": "Myanmar"
+    },
+    {
+      "position": 54,
+      "code": "MYS",
+      "name": "Malaysia"
+    },
+    {
+      "position": 55,
+      "code": "NGA",
+      "name": "Nigeria"
+    },
+    {
+      "position": 56,
+      "code": "NLD",
+      "name": "Netherlands"
+    },
+    {
+      "position": 57,
+      "code": "NOR",
+      "name": "Norway"
+    },
+    {
+      "position": 58,
+      "code": "NZL",
+      "name": "New Zealand"
+    },
+    {
+      "position": 59,
+      "code": "PAK",
+      "name": "Pakistan"
+    },
+    {
+      "position": 60,
+      "code": "PER",
+      "name": "Peru"
+    },
+    {
+      "position": 61,
+      "code": "PHL",
+      "name": "Philippines"
+    },
+    {
+      "position": 62,
+      "code": "POL",
+      "name": "Poland"
+    },
+    {
+      "position": 63,
+      "code": "PRT",
+      "name": "Portugal"
+    },
+    {
+      "position": 64,
+      "code": "ROU",
+      "name": "Romania"
+    },
+    {
+      "position": 65,
+      "code": "RUS",
+      "name": "Russian Federation"
+    },
+    {
+      "position": 66,
+      "code": "SAU",
+      "name": "Saudi Arabia"
+    },
+    {
+      "position": 67,
+      "code": "SEN",
+      "name": "Senegal"
+    },
+    {
+      "position": 68,
+      "code": "SGP",
+      "name": "Singapore"
+    },
+    {
+      "position": 69,
+      "code": "STP",
+      "name": "Saõ Tomé and Príncipe"
+    },
+    {
+      "position": 70,
+      "code": "SVK",
+      "name": "Slovak Republic"
+    },
+    {
+      "position": 71,
+      "code": "SVN",
+      "name": "Slovenia"
+    },
+    {
+      "position": 72,
+      "code": "SWE",
+      "name": "Sweden"
+    },
+    {
+      "position": 73,
+      "code": "THA",
+      "name": "Thailand"
+    },
+    {
+      "position": 74,
+      "code": "TUN",
+      "name": "Tunisia"
+    },
+    {
+      "position": 75,
+      "code": "TUR",
+      "name": "Türkiye"
+    },
+    {
+      "position": 76,
+      "code": "TWN",
+      "name": "Chinese Taipei"
+    },
+    {
+      "position": 77,
+      "code": "UKR",
+      "name": "Ukraine"
+    },
+    {
+      "position": 78,
+      "code": "USA",
+      "name": "United States"
+    },
+    {
+      "position": 79,
+      "code": "VNM",
+      "name": "Viet Nam"
+    },
+    {
+      "position": 80,
+      "code": "ZAF",
+      "name": "South Africa"
+    },
+    {
+      "position": 81,
+      "code": "ROW",
+      "name": "Rest of the World"
+    },
+    {
+      "position": 82,
+      "code": "MX1",
+      "name": "Mexico excluding global manufacturing activities"
+    },
+    {
+      "position": 83,
+      "code": "MX2",
+      "name": "Mexico global manufacturing activities"
+    },
+    {
+      "position": 84,
+      "code": "CN1",
+      "name": "China excluding processing activities"
+    },
+    {
+      "position": 85,
+      "code": "CN2",
+      "name": "China processing activities"
+    }
+  ],
+  "sectors": [
+    {
+      "position": 1,
+      "code": "A01",
+      "name": "Agriculture and hunting",
+      "isic_rev4": "01"
+    },
+    {
+      "position": 2,
+      "code": "A02",
+      "name": "Forestry and logging",
+      "isic_rev4": "02"
+    },
+    {
+      "position": 3,
+      "code": "A03",
+      "name": "Fishing and aquaculture",
+      "isic_rev4": "03"
+    },
+    {
+      "position": 4,
+      "code": "B05",
+      "name": "Mining of coal and lignite",
+      "isic_rev4": "05"
+    },
+    {
+      "position": 5,
+      "code": "B06",
+      "name": "Extraction of crude petroleum and natural gas",
+      "isic_rev4": "06"
+    },
+    {
+      "position": 6,
+      "code": "B07",
+      "name": "Mining of metal ores",
+      "isic_rev4": "07"
+    },
+    {
+      "position": 7,
+      "code": "B08",
+      "name": "Other mining and quarrying",
+      "isic_rev4": "08"
+    },
+    {
+      "position": 8,
+      "code": "B09",
+      "name": "Mining support service activities",
+      "isic_rev4": "09"
+    },
+    {
+      "position": 9,
+      "code": "C10T12",
+      "name": "Manufacture of food products; beverages and tobacco products",
+      "isic_rev4": "10, 11, 12"
+    },
+    {
+      "position": 10,
+      "code": "C13T15",
+      "name": "Manufacture of textiles, wearing apparel, leather and related products",
+      "isic_rev4": "13, 14, 15"
+    },
+    {
+      "position": 11,
+      "code": "C16",
+      "name": "Manufacture of wood and of products of wood and cork",
+      "isic_rev4": "16"
+    },
+    {
+      "position": 12,
+      "code": "C17_18",
+      "name": "Manufacture of paper and paper products; Printing and reproduction of recorded media",
+      "isic_rev4": "17, 18"
+    },
+    {
+      "position": 13,
+      "code": "C19",
+      "name": "Manufacture of coke and refined petroleum products",
+      "isic_rev4": "19"
+    },
+    {
+      "position": 14,
+      "code": "C20",
+      "name": "Manufacture of chemicals and chemical products",
+      "isic_rev4": "20"
+    },
+    {
+      "position": 15,
+      "code": "C21",
+      "name": "Manufacture of basic pharmaceutical products and pharmaceutical preparations",
+      "isic_rev4": "21"
+    },
+    {
+      "position": 16,
+      "code": "C22",
+      "name": "Manufacture of rubber and plastic products",
+      "isic_rev4": "22"
+    },
+    {
+      "position": 17,
+      "code": "C23",
+      "name": "Manufacture of other non-metallic mineral products",
+      "isic_rev4": "23"
+    },
+    {
+      "position": 18,
+      "code": "C24A",
+      "name": "Manufacture of basic iron and steel",
+      "isic_rev4": "241, 2431"
+    },
+    {
+      "position": 19,
+      "code": "C24B",
+      "name": "Manufacture of basic precious and other non-ferrous metals",
+      "isic_rev4": "242, 2432"
+    },
+    {
+      "position": 20,
+      "code": "C25",
+      "name": "Manufacture of fabricated metal products",
+      "isic_rev4": "25"
+    },
+    {
+      "position": 21,
+      "code": "C26",
+      "name": "Manufacture of computer, electronic and optical products",
+      "isic_rev4": "26"
+    },
+    {
+      "position": 22,
+      "code": "C27",
+      "name": "Manufacture of electrical equipment",
+      "isic_rev4": "27"
+    },
+    {
+      "position": 23,
+      "code": "C28",
+      "name": "Manufacture of machinery and equipment n.e.c.",
+      "isic_rev4": "28"
+    },
+    {
+      "position": 24,
+      "code": "C29",
+      "name": "Manufacture of motor vehicles, trailers and semi-trailers",
+      "isic_rev4": "29"
+    },
+    {
+      "position": 25,
+      "code": "C301",
+      "name": "Building of ships and boats",
+      "isic_rev4": "301"
+    },
+    {
+      "position": 26,
+      "code": "C302T309",
+      "name": "Manufacture of other transport equipment",
+      "isic_rev4": "302 to 309"
+    },
+    {
+      "position": 27,
+      "code": "C31T33",
+      "name": "Manufacture of furniture; other manufacturing; repair and installation of machinery and equipment",
+      "isic_rev4": "31, 32, 33"
+    },
+    {
+      "position": 28,
+      "code": "D",
+      "name": "Electricity, gas, steam and air conditioning supply",
+      "isic_rev4": "35"
+    },
+    {
+      "position": 29,
+      "code": "E",
+      "name": "Water supply; sewerage, waste management and remediation activities",
+      "isic_rev4": "36, 37, 38, 39"
+    },
+    {
+      "position": 30,
+      "code": "F",
+      "name": "Construction",
+      "isic_rev4": "41, 42, 43"
+    },
+    {
+      "position": 31,
+      "code": "G",
+      "name": "Wholesale and retail trade; repair of motor vehicles and motorcycles",
+      "isic_rev4": "45, 46, 47"
+    },
+    {
+      "position": 32,
+      "code": "H49",
+      "name": "Land transport and transport via pipelines",
+      "isic_rev4": "49"
+    },
+    {
+      "position": 33,
+      "code": "H50",
+      "name": "Water transport",
+      "isic_rev4": "50"
+    },
+    {
+      "position": 34,
+      "code": "H51",
+      "name": "Air transport",
+      "isic_rev4": "51"
+    },
+    {
+      "position": 35,
+      "code": "H52",
+      "name": "Warehousing and support activities for transportation",
+      "isic_rev4": "52"
+    },
+    {
+      "position": 36,
+      "code": "H53",
+      "name": "Postal and courier activities",
+      "isic_rev4": "53"
+    },
+    {
+      "position": 37,
+      "code": "I",
+      "name": "Accommodation and food service activities",
+      "isic_rev4": "55, 56"
+    },
+    {
+      "position": 38,
+      "code": "J58T60",
+      "name": "Publishing, Motion picture, video, television programme production and broadcasting activities",
+      "isic_rev4": "58, 59, 60"
+    },
+    {
+      "position": 39,
+      "code": "J61",
+      "name": "Telecommunications",
+      "isic_rev4": "61"
+    },
+    {
+      "position": 40,
+      "code": "J62_63",
+      "name": "Computer programming and information service activities",
+      "isic_rev4": "62, 63"
+    },
+    {
+      "position": 41,
+      "code": "K",
+      "name": "Financial and insurance activities",
+      "isic_rev4": "64, 65, 66"
+    },
+    {
+      "position": 42,
+      "code": "L",
+      "name": "Real estate activities",
+      "isic_rev4": "68"
+    },
+    {
+      "position": 43,
+      "code": "M",
+      "name": "Professional, scientific and technical activities",
+      "isic_rev4": "69 to 75"
+    },
+    {
+      "position": 44,
+      "code": "N",
+      "name": "Administrative and support service activities",
+      "isic_rev4": "77 to 82"
+    },
+    {
+      "position": 45,
+      "code": "O",
+      "name": "Public administration and defence; compulsory social security",
+      "isic_rev4": "84"
+    },
+    {
+      "position": 46,
+      "code": "P",
+      "name": "Education",
+      "isic_rev4": "85"
+    },
+    {
+      "position": 47,
+      "code": "Q",
+      "name": "Human health and social work activities",
+      "isic_rev4": "86, 87, 88"
+    },
+    {
+      "position": 48,
+      "code": "R",
+      "name": "Arts, entertainment and recreation activities",
+      "isic_rev4": "90, 91, 92, 93"
+    },
+    {
+      "position": 49,
+      "code": "S",
+      "name": "Other service activities",
+      "isic_rev4": "94,95, 96"
+    },
+    {
+      "position": 50,
+      "code": "T",
+      "name": "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use",
+      "isic_rev4": "97, 98"
+    }
+  ]
+}
