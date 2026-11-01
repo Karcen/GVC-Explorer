@@ -4,17 +4,18 @@
 
 Choose an exporter, its direct importer and a product industry to trace a bilateral export flow through the 16 WWZ components. The desktop application computes new tables; the offline atlas explores a completed run.
 
+The desktop, offline atlas and formula handbook use a fixed light theme. Blue marks primary actions and active selections.
+
 ## Getting started
 
 Unzip the project and open `offline_dashboard.html` for the 2007 benchmark. It opens on exports from Germany to the United States across all industries. Switch languages, select a trade direction, click a heatmap cell, or download the selected breakdown as CSV. The page needs neither Python nor a network connection.
 
-To import data, install Python 3.10 or later with Tk. On macOS, open `start_studio.command`; on Windows, open `start_studio.bat`. First-time dependency installation needs internet access; computation and figure export do not. On Linux, or to launch manually:
+To import a table, extract the whole ZIP and run `run_all.py` in your editor (VS Code, PyCharm or IDLE) with Python 3.10 or later and Tk. The launcher uses your editor’s interpreter when its packages meet the project requirements. Otherwise it checks the project’s `.venv` and asks before installing missing packages there. It does not change system Python. No shell script is needed. Downloading missing packages requires internet access; analysis does not.
+
+To install all desktop dependencies yourself, run this once in your editor’s Python environment:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -e .
-python desktop.py
+python -m pip install "numpy>=1.24,<3" "scipy>=1.10,<2" "lxml>=4.9,<7" "pandas>=2,<3" "plotly>=5,<7" "matplotlib>=3.7,<4" "fonttools>=4.39,<5"
 ```
 
 Click **Import annual table or ZIP**. Try `examples/fixture_3area_3sector.csv` for a small test with negative inventory changes and net product taxes. It is synthetic, not an observed OECD table. Each run creates a separate directory under `runs/`, or the output location you choose. Figures use the active language. After changing a filter or the language, **Export this selection** saves a new set without overwriting the first.

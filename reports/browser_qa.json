@@ -3,11 +3,14 @@
     "actual Plotly axes fit the desktop cards",
     "language + named default route",
     "term/group values agree with Python",
+    "fixed light palette with OS and saved dark preference, exact research badge and author link",
     "heatmap values + click-to-select linked sector and importer",
     "scatter and corridor ranking agree with Python",
     "bilingual code search",
     "CSV download",
-    "mobile 390px layout"
+    "mobile 390px layout",
+    "mobile 320px layout",
+    "both handbooks: light on dark OS, 17 display equations, no MathJax errors or page overflow"
   ],
   "page_errors": [],
   "http_requests": []

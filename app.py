@@ -32,11 +32,27 @@ COLORS={'直接最终产品':'#194568','本国增加值（中间投入路径）'
 
 st.set_page_config(page_title='GVC Explorer | WWZ 16',page_icon='🌐',layout='wide',initial_sidebar_state='expanded')
 st.markdown('''<style>
-.block-container{padding-top:1.5rem;max-width:1500px}
-[data-testid="stMetric"]{border:1px solid color-mix(in srgb,var(--text-color) 20%,transparent);border-radius:8px;padding:12px;background:var(--secondary-background-color)}
-h1,h2,h3{font-family:Arial,sans-serif;color:var(--text-color)}
-[data-testid="stSidebar"]{background:var(--secondary-background-color)}
+:root,.stApp{color-scheme:only light}
+.stApp,[data-testid="stAppViewContainer"]{background:#f5f6f7;color:#202328}
+.block-container{padding-top:2.5rem;max-width:1400px}
+[data-testid="stHeader"],[data-testid="stSidebar"]{background:#fff}
+[data-testid="stSidebar"]{border-right:1px solid #dadde1}
+[data-testid="stMetric"]{border:1px solid #dadde1;border-radius:6px;padding:10px 14px;background:#fff;color:#202328;font-variant-numeric:tabular-nums}
+h1,h2,h3{letter-spacing:-.035em;color:#202328}
+.stApp a{color:#1e48ad;text-underline-offset:3px}
+.gvc-tag{display:inline-flex;align-items:center;gap:7px;color:#555d67;font:500 13px/1.4 system-ui,sans-serif}
+.gvc-tag::before{content:"";width:8px;height:8px;background:#bfde3c;border:1px solid #718820;border-radius:50%}
+.stApp :is(button,input,summary):focus-visible{outline:2px solid #2454cf;outline-offset:2px}
 </style>''',unsafe_allow_html=True)
+
+
+def show_chart(fig):
+    fig.update_layout(template='plotly_white',paper_bgcolor='#ffffff',plot_bgcolor='#ffffff',
+                      font_color='#202328',hoverlabel={'bgcolor':'#ffffff','font_color':'#202328'})
+    fig.update_xaxes(gridcolor='#e5e7ea',zerolinecolor='#a2a8b1')
+    fig.update_yaxes(gridcolor='#e5e7ea',zerolinecolor='#a2a8b1')
+    st.plotly_chart(fig,use_container_width=True,theme=None)
+
 
 
 def load_directory(folder:Path,s:int,n:int)->tuple[WWZResult,dict]:
@@ -115,6 +131,7 @@ def export_fig(df, title, fmt):
     return buf.getvalue()
 
 
+st.markdown('<span class="gvc-tag" lang="en">For research only</span>',unsafe_allow_html=True)
 st.title('GVC Explorer')
 st.markdown('Global Value Chain Decomposition · WWZ 16-term accounting · Local research tool  \n本软件由 [Jiacheng Zheng](https://karcen.github.io/) 使用 Codex 辅助开发。')
 with st.sidebar:
@@ -219,7 +236,7 @@ if page=='16 项分解':
     fig.update_layout(title=f'{names[ex]} → {names[im]} · {industries[sec]} · 16 Terms',height=600,
         xaxis_title=f'Amount ({meta.get("unit","unit not supplied")})',yaxis_title='',yaxis={'categoryorder':'array','categoryarray':TERMS[::-1]},
         legend_title_text='Code grouping',margin={'l':20,'r':20,'b':40,'t':70})
-    st.plotly_chart(fig,use_container_width=True)
+    show_chart(fig)
     st.dataframe(df,hide_index=True,use_container_width=True)
     chosen_term=st.selectbox('查看分解项公式及来源',list(range(16)),format_func=lambda k:f'{TERM_INFO[k].key} — {TERM_INFO[k].label_zh}')
     info=TERM_INFO[chosen_term]
@@ -237,7 +254,7 @@ elif page=='国家与产业':
         matrix=result.terms[int(view[1:])-1].reshape(S,N,S)[dest,:,:]
     fig=px.imshow(matrix,x=[x.split(' — ',1)[0] for x in names],y=[x.split(' — ',1)[0] for x in industries],color_continuous_scale='Blues',aspect='auto',labels={'x':'进口经济体','y':'产业','color':'金额'})
     fig.update_layout(title=f'{names[dest]} · 产业 × 贸易伙伴热力图',height=max(400,N*27))
-    st.plotly_chart(fig,use_container_width=True)
+    show_chart(fig)
     groups=pd.DataFrame({'importer':names,'gross_exports':matrix.sum(axis=0)})
     st.dataframe(groups,hide_index=True,use_container_width=True)
 
@@ -254,7 +271,7 @@ elif page=='双边出口比较':
         df=pd.DataFrame(rows)
         if not df.empty:
             fig=px.bar(df,x='Exporter',y='Amount',color='term',barmode='relative',title='WWZ 16 项：出口方比较（产业求和）')
-            st.plotly_chart(fig,use_container_width=True)
+            show_chart(fig)
             st.download_button('下载比较数据',df.to_csv(index=False).encode('utf-8-sig'),file_name='WWZ_comparison.csv',mime='text/csv')
         else:st.info('选择至少一个不同于进口经济体的出口经济体。')
 

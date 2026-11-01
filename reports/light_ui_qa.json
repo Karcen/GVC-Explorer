@@ -1,0 +1,19 @@
+{
+  "base": "GVC_Explorer_Studio_RunAll.zip",
+  "palette": "white / neutral grey; cobalt for actions, lime for the research badge",
+  "notice": "For research only",
+  "project_tests_passed": 30,
+  "browser": "reports/browser_qa.json",
+  "desktop": "reports/desktop_qa.json",
+  "launcher": "Actual Tk window opened from outside the project on Linux/Xvfb.",
+  "formula_render": "Both generated handbooks retain byte-identical rendered math elements relative to the RunAll ZIP.",
+  "unchanged": [
+    "2007 offline dashboard JSON payload, including numerical arrays, axis metadata and classifications",
+    "WWZ engine, import and publication figure code",
+    "raw data, baseline results, and shipped publication figure files"
+  ],
+  "limits": [
+    "Streamlit is optional and not installed in the verification environment. Configuration and chart wrapper were checked; its native browser interface was not run.",
+    "Native Windows and macOS were not tested; system dialogs follow OS settings."
+  ]
+}

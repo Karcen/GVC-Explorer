@@ -4,17 +4,18 @@
 
 给定出口经济体、进口经济体和出口行业，GVC Explorer 把这笔总出口分成 WWZ 的 16 项。桌面程序读取新的投入产出表；离线网页只读已经算好的结果。二者共用同一套数值和名称。
 
+桌面、离线图谱和公式手册使用固定的白灰色界面。蓝色标出主要操作和当前选项。
+
 ## 开始使用
 
 先看结果：解压，双击 `offline_dashboard.html`。默认展示 2007 年德国对美国的全部行业出口。可以切换中文或 English、改变贸易方向、点热图选行业和目的地，也可以保存当前双边分解的 CSV。不需要联网或安装 Python。
 
-分析新表：安装带 Tk 的 Python 3.10 或更高版本，双击 macOS 的 `start_studio.command` 或 Windows 的 `start_studio.bat`。首次安装 Python 依赖需要联网，后续计算和出图不用联网。Linux 或手动启动：
+分析新表：解压完整 ZIP，用带 Tk 的 Python 3.10 或更高版本在编辑器（如 VS Code、PyCharm 或 IDLE）中运行 `run_all.py`。依赖已齐就直接进入桌面。否则启动器会检查项目的 `.venv`；仍缺包时，先询问是否安装到这个目录，不改系统 Python。无需打开 `.command` 或 `.bat`。下载缺少的包需要联网，分析不需要。
+
+也可以在编辑器使用的 Python 环境里一次装齐桌面依赖，再运行 `run_all.py`：
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -e .
-python desktop.py
+python -m pip install "numpy>=1.24,<3" "scipy>=1.10,<2" "lxml>=4.9,<7" "pandas>=2,<3" "plotly>=5,<7" "matplotlib>=3.7,<4" "fonttools>=4.39,<5"
 ```
 
 在桌面左栏点“导入年度表或 ZIP”。首次试用可选 `examples/fixture_3area_3sector.csv`：这是含负库存变动和产品税净额的教学模拟表，不是 OECD 观测数据。结果写入 `runs/` 下单独的运行目录；“选择输出位置”可更改目录。默认图使用界面当前语言。切换语言或筛选后，用“导出当前筛选的全部图”另存，不会覆盖第一次导出。

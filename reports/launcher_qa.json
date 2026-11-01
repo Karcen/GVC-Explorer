@@ -1,0 +1,19 @@
+{
+  "scope": "Python launcher; existing numerical, input and charting code unchanged",
+  "runtime": "Linux, Python 3.13.5, Tk/Xvfb",
+  "project_tests": 27,
+  "real_window": {
+    "title": "GVC Explorer · Trade Atlas",
+    "size": [
+      1190,
+      800
+    ],
+    "launched_outside_project_directory": true,
+    "normal_close": true
+  },
+  "not_tested": [
+    "native Windows",
+    "native macOS",
+    "first-time package downloads from PyPI"
+  ]
+}

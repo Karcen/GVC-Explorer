@@ -7,3 +7,7 @@ The figure workflow uses [Yuan1z0825/nature-skills, nature-figure](https://githu
 On Linux install the distribution's Tk package and a CJK system font (such as Noto Sans CJK SC) for Chinese plots. macOS may flag unsigned downloaded launchers; use the manual Python steps in the README rather than disabling system protection. The `.command` and `.bat` scripts create a project-local virtual environment and let pip install declared dependencies. Only the Linux Tk runtime was exercised here.
 
 Each annual result carries its accounting basis. `VA+TLS` means that the attribution includes net taxes on products. This is not an official OECD TiVA series. For new classifications, extend the codebook explicitly rather than repurposing the 2007 axis labels. File hashes and baseline provenance are recorded in `reports/legacy_axis_audit.json` and per-run manifests.
+
+## Light interface
+
+The desktop and setup window share `ui_theme.py`. The offline atlas uses `src/gvc/web/design.css` and the formula generator reads `src/gvc/web/methods.css`; both embed the stylesheet in each HTML file. The chart data, labels, equations and publication figures are unchanged. The desktop and the two reading surfaces keep the English notice “For research only” in both languages. Native file pickers and native alerts belong to the operating system. The optional Streamlit viewer uses `.streamlit/config.toml` and the layout in `app.py`.
