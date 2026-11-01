@@ -51,7 +51,7 @@ The following terms follow the T1–T16 order in `valueadded2007.m` and Table E1
 ### Notation
 
 - $`s`$ is the exporter, $`r`$ the direct importer, and $`t,u`$ index economies in subsequent production or final absorption; $`s\ne r`$. Each economy has $`N`$ industries.
-- $`Z^{sr}`$ records intermediate transactions from $`s`$ to $`r`$, and $`A^{sr}=Z^{sr}\operatorname{diag}(X^r)^{-1}`$ is the corresponding input-coefficient block. $`X^r`$ is the gross-output vector of $`r`$.
+- $`Z^{sr}`$ records intermediate transactions from $`s`$ to $`r`$, and $`A^{sr}=Z^{sr}\mathrm{diag}(X^r)^{-1}`$ is the corresponding input-coefficient block. $`X^r`$ is the gross-output vector of $`r`$.
 - $`A`$ is the global input-coefficient matrix, $`B=(I-A)^{-1}`$ the global Leontief inverse, and $`B^{sr}`$ its $`(s,r)`$ block. $`L^{ss}=(I-A^{ss})^{-1}`$ is the domestic Leontief inverse of $`s`$.
 - $`V^s=(v_1^s,\ldots,v_N^s)`$ is a row vector of value-added coefficients, with $`v_k^s=VA_k^s/X_k^s`$. $`Y^{sr}`$ is the vector of final products made in $`s`$ and absorbed in $`r`$, aggregated across final-demand categories.
 - $`E^{sr}=A^{sr}X^r+Y^{sr}`$ is the bilateral gross-export vector. $`E^{r*}=\sum_{u\ne r}(A^{ru}X^u+Y^{ru})`$ is $`r`$'s vector of exports to all foreign destinations.
